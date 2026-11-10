@@ -1,0 +1,89 @@
+.hb-complications .plan-intro { padding: 24px; }
+.hb-complications .plan-intro .panel-heading { margin-bottom: 8px; gap: 12px; }
+.hb-complications .plan-intro h2 { margin: 0; }
+.hb-complications .plan-setup-disclosure { margin-top: 12px; font-size: 13px; color: var(--primary-dark); }
+.hb-complications .plan-setup-disclosure summary { list-style-position: inside; }
+.hb-complications .plan-setup-disclosure .plan-setup { margin: 12px 0 0; }
+.hb-complications .plan-patient-sources { margin-bottom: 20px; }
+.hb-complications .plan-intro > p { margin-bottom: 20px; color: var(--muted); }
+.hb-complications .plan-setup { display: flex; flex-wrap: wrap; gap: 16px 40px; background: var(--tint); padding: 16px 20px; border-radius: 12px; margin-bottom: 20px; color: var(--primary-dark); }
+.hb-complications .plan-setup span { display: flex; flex-direction: column; gap: 4px; font-size: 13px; line-height: 1.5; }
+.hb-complications .plan-setup strong { font-size: 13px; }
+.hb-complications .plan-mode .MuiToggleButton-root { text-transform: none; font-size: 13px; }
+.hb-complications .plan-toolbar { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px; margin: 24px 0; }
+.hb-complications .plan-toolbar .MuiToggleButton-root { text-transform: none; }
+.hb-complications .plan-toolbar .MuiTextField-root { width: 280px; background: var(--surface); }
+.hb-complications .plan-workspace { display: grid; grid-template-columns: 290px minmax(0,1fr); gap: 24px; align-items: start; }
+.hb-complications .plan-navigation { padding: 20px 16px; margin: 0; }
+.hb-complications .plan-navigation > h3 { margin: 0 8px 20px; }
+.hb-complications .plan-step-group + .plan-step-group { margin-top: 24px; }
+.hb-complications .plan-step-group h4 { font-size: 12px; margin: 0 8px 8px; color: var(--muted); }
+.hb-complications .plan-step-group.urgent h4 { color: var(--danger-fg, #9a252f); }
+.hb-complications .plan-step-group button { display: flex; align-items: center; justify-content: space-between; gap: 8px; width: 100%; padding: 12px; margin-top: 4px; border: 0; border-radius: 10px; background: transparent; text-align: left; font-size: 14px; line-height: 1.5; }
+.hb-complications .plan-step-group button svg { width: 18px; flex-shrink: 0; color: var(--primary); }
+.hb-complications .plan-step-group button:hover { background: var(--background); }
+.hb-complications .plan-step-group button[aria-current] { background: var(--tint); color: var(--primary-dark); font-weight: 600; }
+.hb-complications .plan-decision { padding: 24px; margin: 0; min-width: 0; scroll-margin-top: 84px; }
+.hb-complications .plan-decision-title { padding-bottom: 20px; border-bottom: 1px solid var(--outline); }
+.hb-complications .plan-decision-title h2 { margin-bottom: 12px; font-size: 21px; max-width: 50ch; text-wrap: balance; }
+.hb-complications .plan-priority { display: inline-block; font-size: 12px; line-height: 1.5; color: var(--primary-dark); background: var(--tint); border-radius: 6px; padding: 5px 9px; }
+.hb-complications .plan-priority.priority { background: var(--warning-bg, #fff0d5); color: var(--warning-fg, #765011); }
+.hb-complications .plan-priority.urgent { background: var(--danger-bg, #fbeeef); color: var(--danger-fg, #9a252f); }
+.hb-complications .plan-rationale { margin: 20px 0; max-width: 72ch; }
+.hb-complications .plan-required { background: var(--background); padding: 16px 20px; border-radius: 12px; }
+.hb-complications .plan-required h3 { font-size: 15px; margin-bottom: 8px; }
+.hb-complications .plan-required ul { margin: 0; padding-left: 20px; }
+.hb-complications .plan-required li + li { margin-top: 6px; }
+.hb-complications .plan-review-moment { margin-top: 20px; padding: 16px 20px; background: var(--tint); border-radius: 12px; color: var(--primary-dark); }
+.hb-complications .plan-review-moment.urgent { background: var(--danger-bg, #fbeeef); color: var(--danger-fg, #9a252f); }
+.hb-complications .plan-review-moment h3 { font-size: 15px; margin-bottom: 6px; }
+.hb-complications .plan-review-moment p { margin: 0; }
+.hb-complications .plan-review-moment .plan-trigger { margin-top: 10px; }
+.hb-complications .plan-review-moment details { margin-top: 12px; font-size: 13px; }
+.hb-complications .plan-review-moment details p { margin-top: 8px; }
+.hb-complications :is(.plan-dependencies,.plan-outcomes,.plan-execution) { margin-top: 28px; }
+.hb-complications :is(.plan-dependencies,.plan-outcomes,.plan-execution) h3 { font-size: 16px; margin-bottom: 8px; }
+.hb-complications .plan-hint { color: var(--muted); font-size: 12px; margin-bottom: 12px; }
+.hb-complications .plan-dependency { display: flex; flex-direction: column; align-items: flex-start; gap: 4px; padding: 12px 0; border-bottom: 1px solid var(--outline); }
+.hb-complications .plan-dependency > span { font-size: 13px; color: var(--muted); }
+.hb-complications .plan-dependency .MuiButton-root { text-align: left; justify-content: flex-start; padding: 4px 0; }
+.hb-complications .outcome-options { display: flex; flex-direction: column; gap: 8px; }
+.hb-complications .outcome-options button { display: flex; align-items: flex-start; gap: 12px; justify-content: space-between; background: var(--surface); border: 1px solid var(--outline); border-radius: 10px; padding: 12px 14px; text-align: left; font-size: 14px; line-height: 1.5; }
+.hb-complications .outcome-options button svg { color: var(--primary); flex-shrink: 0; width: 20px; }
+.hb-complications .outcome-options button:hover { background: var(--background); }
+.hb-complications .outcome-options button[aria-pressed=true] { background: var(--tint); border-color: var(--primary); color: var(--primary-dark); }
+.hb-complications .outcome-options button[aria-pressed=true] svg { transform: rotate(180deg); }
+.hb-complications .plan-outcome-detail { padding: 16px 20px; margin-top: 12px; background: var(--background); border-radius: 12px; }
+.hb-complications .plan-outcome-detail h4 { margin: 0 0 8px; }
+.hb-complications .plan-outcome-detail p { max-width: 72ch; }
+.hb-complications .plan-outcome-detail ul { padding-left: 20px; margin-bottom: 0; }
+.hb-complications .plan-outcome-detail li + li { margin-top: 8px; }
+.hb-complications .plan-execution { border-top: 1px solid var(--outline); padding-top: 20px; }
+.hb-complications .plan-execution > p { color: var(--muted); margin-bottom: 0; }
+.hb-complications .plan-execution ol { padding-left: 20px; }
+.hb-complications .plan-execution time { margin-left: 12px; font-size: 13px; font-variant-numeric: tabular-nums; }
+.hb-complications .plan-sources { margin-top: 24px; border-top: 1px solid var(--outline); padding-top: 16px; }
+.hb-complications .plan-sources summary { color: var(--primary-dark); font-size: 13px; font-weight: 600; list-style-position: inside; }
+.hb-complications .plan-sources .small-source-list { margin-top: 16px; }
+.hb-complications .plan-sources > p { color: var(--muted); font-size: 12px; margin-top: 16px; }
+.hb-complications .plan-mobile-choice { display: none; }
+@media(max-width:1100px) {
+  .hb-complications .plan-workspace { grid-template-columns: 230px minmax(0,1fr); gap: 16px; }
+  .hb-complications .plan-decision { padding: 20px; }
+}
+@media(max-width:760px) {
+  .hb-complications .case-identity > span { display: none; }
+  .hb-complications .plan-workspace { display: block; }
+  .hb-complications .plan-navigation { display: none; }
+  .hb-complications .plan-mobile-choice { display: block; margin-bottom: 24px; }
+  .hb-complications .plan-mobile-choice .MuiSelect-select { white-space: normal; font-size: 14px; }
+  .hb-complications .plan-intro, .hb-complications .plan-decision { padding: 18px 16px; }
+  .hb-complications .plan-intro .panel-heading { flex-wrap: wrap; }
+  .hb-complications .plan-decision-title h2 { font-size: 19px; }
+  .hb-complications .plan-setup { padding: 14px; gap: 12px; }
+  .hb-complications .plan-mode, .hb-complications .plan-toolbar > * { width: 100%; }
+  .hb-complications .plan-toolbar .MuiTextField-root { width: 100%; }
+  .hb-complications .plan-mode .MuiToggleButton-root, .hb-complications .plan-toolbar .MuiToggleButton-root { flex: 1; font-size: 12px; }
+  .hb-complications .plan-toolbar { margin: 20px 0; gap: 12px; }
+  .hb-complications :is(.plan-required,.plan-review-moment,.plan-outcome-detail) { padding: 14px; }
+}

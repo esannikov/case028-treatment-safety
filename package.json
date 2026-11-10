@@ -1,13 +1,13 @@
 {
   "name": "case028-treatment-safety",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "private": true,
   "type": "module",
   "scripts": {
     "dev": "vite --host 127.0.0.1",
     "build:app": "tsc --noEmit && vite build",
     "build": "npm run build:app",
-    "test": "node --experimental-strip-types --test tests/model.test.mjs tests/complications.test.mjs tests/safety.test.mjs tests/trend-connections.test.mjs tests/history-color.test.mjs tests/publication.test.mjs",
+    "test": "node --experimental-strip-types --test tests/model.test.mjs tests/complications.test.mjs tests/safety.test.mjs tests/trend-connections.test.mjs tests/history-color.test.mjs tests/publication.test.mjs tests/care-plan.test.mjs",
     "preview": "vite preview --host 127.0.0.1",
     "verify": "node scripts/verify-public.mjs && python3 scripts/verify-display.py"
   },

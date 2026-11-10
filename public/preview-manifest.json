@@ -7,8 +7,8 @@
   "graph_url": "patient-graph.json",
   "graph_sha256": "c16ae9bddc311a08182dbab76ba16cbe993801d5aeab2b96ff8bd26fff3500dc",
   "presentation_url": "presentation.json",
-  "presentation_sha256": "2375f2eb0cca1d5addedd518e69c005877a0a3f08514fda9b02bba24222f485d",
+  "presentation_sha256": "b93199ff45d5b913d7aca6f012340e04970c08c58b81d224aa404b677f6ac2b1",
   "distribution_mode": "static_public_snapshot",
   "release_url": "release.json",
-  "release_sha256": "b051321bddd7264245ef5c1dea6c99530e8f549f36f992f61d2eab51ce2090e9"
+  "release_sha256": "725388ac714912ef4408b09221ed99dce91acf5353b0bac57d0b91561bcd6c1a"
 }

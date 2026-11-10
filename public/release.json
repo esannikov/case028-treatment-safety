@@ -7,7 +7,7 @@
   "files": {
     "package_sha256": "5b91bbe87b5969eb7816f46d5914d2fc5a61de4419a57cf2d095dab919d04561",
     "graph_sha256": "c16ae9bddc311a08182dbab76ba16cbe993801d5aeab2b96ff8bd26fff3500dc",
-    "presentation_sha256": "2375f2eb0cca1d5addedd518e69c005877a0a3f08514fda9b02bba24222f485d"
+    "presentation_sha256": "b93199ff45d5b913d7aca6f012340e04970c08c58b81d224aa404b677f6ac2b1"
   },
   "publication_authorized_by_user": true,
   "publication_request_date": "2026-11-10",
@@ -1705,5 +1705,23 @@
       }
     ]
   },
-  "public_display_payload_sha256": "af81f169bc86b49f302cc22c33eb08c2b74d87a154d5c5c531bae4c6bf040442"
+  "public_display_payload_sha256": "af81f169bc86b49f302cc22c33eb08c2b74d87a154d5c5c531bae4c6bf040442",
+  "presentation_revisions": [
+    {
+      "date": "2026-11-10",
+      "kind": "care_plan_projection",
+      "previous_sha256": "2375f2eb0cca1d5addedd518e69c005877a0a3f08514fda9b02bba24222f485d",
+      "sha256": "6561da41d59bcb1c42240624d343bd4d8da6b710d29682c0687c201a6150bf15",
+      "clinical_candidate_changed": false,
+      "publication_basis": "User requested integration of the next planning step into the separately published CASE028 dashboard."
+    },
+    {
+      "date": "2026-11-10",
+      "kind": "care_plan_projection",
+      "previous_sha256": "6561da41d59bcb1c42240624d343bd4d8da6b710d29682c0687c201a6150bf15",
+      "sha256": "b93199ff45d5b913d7aca6f012340e04970c08c58b81d224aa404b677f6ac2b1",
+      "clinical_candidate_changed": false,
+      "publication_basis": "User requested integration of the next planning step into the separately published CASE028 dashboard."
+    }
+  ]
 }

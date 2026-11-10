@@ -15313,7 +15313,311 @@
         "status": "Методична настанова",
         "locator": "Nature Medicine, DOI 10.1038/s41591-024-03425-5."
       }
-    ]
+    ],
+    "care_plan": {
+      "schema_version": "hematoboard.care-plan-projection/0.1",
+      "candidate_sha256": "73fd8ce9e9cdb5b80cb53d6e51a3e3e11386e367d14728871fbf3c8a63c8664a",
+      "graph_state_sha256": "fbe2341415c23e1ed477ca57cc666d8b9233591926bd911bf053f0e516294cbf",
+      "status": "proposed_for_clinician_review",
+      "basis": "existing_candidate_workup",
+      "items": [
+        {
+          "workup_id": "W1",
+          "workup_sha256": "41c1904c0bcaeb1731236186aa838bc59702e6ac221510a74a265804c7ac87be",
+          "decision": "Оцінити поточну активність меланоми",
+          "required_information": [
+            "Останні протоколи візуалізації й порівняння тих самих ділянок",
+            "Чинне рішення щодо протипухлинного лікування"
+          ],
+          "review_moment": "Перед переглядом онкологічної тактики",
+          "owner": null,
+          "due_date": null,
+          "clinician_decision": null
+        },
+        {
+          "workup_id": "W2",
+          "workup_sha256": "10b794c6f6ddb719547bcbc9aea11aba3502b3482d3a194f5d8987e28146bf1a",
+          "decision": "Визначити активність і тяжкість печінкового епізоду",
+          "required_information": [
+            "Датовані печінкові проби й симптоми",
+            "Фактичні введення імунотерапії та календар стероїдів"
+          ],
+          "review_moment": "Перед рішенням щодо подальшої імунотерапії",
+          "owner": null,
+          "due_date": null,
+          "clinician_decision": null
+        },
+        {
+          "workup_id": "W3",
+          "workup_sha256": "2b7e935a3be377fb2fa5c67e4a219584dd91a45a188d25a278e684cdc4e28c47",
+          "decision": "Уточнити причину печінкового ураження",
+          "required_information": [
+            "Результати вже виконаного інфекційного й автоімунного обстеження",
+            "Супутні препарати, їхні дати та структурні дослідження"
+          ],
+          "review_moment": "За активного або неуточненого печінкового епізоду",
+          "owner": null,
+          "due_date": null,
+          "clinician_decision": null
+        },
+        {
+          "workup_id": "W4",
+          "workup_sha256": "dbcd973c8a34dba8373a826099fb4d6eacba2778a27aa8236a0d23f6b8383ac5",
+          "decision": "Розрізнити причини низького кортизолу",
+          "required_information": [
+            "Фактичні стероїди: доза, тривалість, останнє приймання",
+            "Час і метод парного визначення кортизолу та АКТГ"
+          ],
+          "review_moment": "Умови гормональної перевірки визначає ендокринолог",
+          "owner": null,
+          "due_date": null,
+          "clinician_decision": null
+        },
+        {
+          "workup_id": "W5",
+          "workup_sha256": "d6fd6199aa3044e8e489a97693386c918ad82c4c096ae1e1ecf7d790de06f9d6",
+          "decision": "Уточнити тиреоїдний стан і замісну терапію",
+          "required_information": [
+            "Парні ТТГ і вільний Т4",
+            "Реальна доза левотироксину, регулярність і супутні засоби"
+          ],
+          "review_moment": "Перед переглядом замісної терапії",
+          "owner": null,
+          "due_date": null,
+          "clinician_decision": null
+        },
+        {
+          "workup_id": "W6",
+          "workup_sha256": "ed1865e00111bc53cf1bbe5af4cd767e23dacdecc39c3e9a4bca10e834f30e6d",
+          "decision": "Перевірити придатність результату для рішення",
+          "required_information": [
+            "Первинний бланк, одиниці, метод і час забору",
+            "Позначки якості або лабораторне підтвердження"
+          ],
+          "review_moment": "Коли якість або походження результату змінює рішення",
+          "owner": null,
+          "due_date": null,
+          "clinician_decision": null
+        },
+        {
+          "workup_id": "W7",
+          "workup_sha256": "b33f3bb8be79e6a274263325defab6f426703033156153ebcdbbcc51a5d9be44",
+          "decision": "Оцінити можливий гострий наднирковий дефіцит",
+          "required_information": [
+            "Поточний клінічний стан і життєві показники",
+            "Фактичні стероїди та доступні метаболічні показники"
+          ],
+          "review_moment": "Невідкладно за відповідних симптомів",
+          "owner": null,
+          "due_date": null,
+          "clinician_decision": null
+        },
+        {
+          "workup_id": "W8",
+          "workup_sha256": "fca00d92a2005dbe0358316d062605c3f35d8f61fdfa5ce06489f16f9ad0e5eb",
+          "decision": "Уточнити причину й завершення шлунково-кишкового епізоду",
+          "required_information": [
+            "Перебіг і завершення кожного з двох епізодів",
+            "Актуальні симптоми та результати цільового обстеження"
+          ],
+          "review_moment": "За збереження або повторення симптомів",
+          "owner": null,
+          "due_date": null,
+          "clinician_decision": null
+        },
+        {
+          "workup_id": "W9",
+          "workup_sha256": "86b7cc3d5bf82cf2bb50edc2559d005f699583690253207ba815054d9e6f6baf",
+          "decision": "Підтвердити підвищення артеріального тиску",
+          "required_information": [
+            "Добове моніторування або стандартизована серія вимірів",
+            "Початок підвищення тиску й фактична стероїдна експозиція"
+          ],
+          "review_moment": "Після отримання серії вимірів",
+          "owner": null,
+          "due_date": null,
+          "clinician_decision": null
+        },
+        {
+          "workup_id": "W10",
+          "workup_sha256": "7156bc1ece3cd9907d12e695d2576e4643c3de75b82eabb19ad9b37e261374b2",
+          "decision": "Уточнити причину набряків і метаболічних змін",
+          "required_information": [
+            "Динаміка маси, набряків, тиску, сатурації та глюкози",
+            "Фактичний календар стероїдів і результати огляду"
+          ],
+          "review_moment": "За збереження або повторення проявів",
+          "owner": null,
+          "due_date": null,
+          "clinician_decision": null
+        },
+        {
+          "workup_id": "W11",
+          "workup_sha256": "afab81769ddea725337de0ee4859aa7436fa4ca81fdd2aadcd4efdbed4091537",
+          "decision": "Оцінити новий кардіолегеневий або м’язовий синдром",
+          "required_information": [
+            "Актуальні симптоми, огляд і сатурація",
+            "Цільові дослідження за клінічною підозрою"
+          ],
+          "review_moment": "Невідкладно за відповідних симптомів",
+          "owner": null,
+          "due_date": null,
+          "clinician_decision": null
+        },
+        {
+          "workup_id": "W12",
+          "workup_sha256": "bf68e3c43b7faf3ca951c409a45dfbec9400b71356ce277dfbfc8b7b43c52aec",
+          "decision": "Розрізнити механічний і запальний біль у коліні",
+          "required_information": [
+            "Локальний огляд і перебіг болю",
+            "Ознаки синовіту; цільова перевірка за показаннями"
+          ],
+          "review_moment": "За збереження болю або появи запальних ознак",
+          "owner": null,
+          "due_date": null,
+          "clinician_decision": null
+        },
+        {
+          "workup_id": "W13",
+          "workup_sha256": "59c0fcb3227a4dfc6a087c5ce46930ade3ddeca5d9ffd36527a0fb98365593f2",
+          "decision": "Оцінити відновлення після перелому й кістковий ризик",
+          "required_information": [
+            "Травматологічний контроль, загоєння та функція",
+            "Механізм травми й фактична стероїдна експозиція"
+          ],
+          "review_moment": "Якщо відновлення не підтверджене або є чинники крихкості",
+          "owner": null,
+          "due_date": null,
+          "clinician_decision": null
+        },
+        {
+          "workup_id": "W14",
+          "workup_sha256": "abadf75ef64ea3bee693bf1f3d597f639a2b86b0fef4e57cbb10bfb1778fe6bc",
+          "decision": "Уточнити фактично отримане лікування та наслідки епізодів",
+          "required_information": [
+            "Дати отримання, дози, зміни та припинення препаратів",
+            "Початок симптомів, їхній перебіг і наслідки"
+          ],
+          "review_moment": "Перед причинною оцінкою відповідного епізоду",
+          "owner": null,
+          "due_date": null,
+          "clinician_decision": null
+        },
+        {
+          "workup_id": "W15",
+          "workup_sha256": "8e9f99b862e20bd0d3f94bf08a805fb539d1a568ec495417a165a663721f2246",
+          "decision": "Уточнити причину анемії за збереження відхилень",
+          "required_information": [
+            "Актуальна гемограма, ретикулоцити й мазок",
+            "Симптоми та ознаки крововтрати; подальші дані за патерном"
+          ],
+          "review_moment": "За збереження, поглиблення або симптомів анемії",
+          "owner": null,
+          "due_date": null,
+          "clinician_decision": null
+        },
+        {
+          "workup_id": "W16",
+          "workup_sha256": "500a515c97d1c06a54af981b0826f52d6aee3b7b7ddf71a0bdf8198b46424228",
+          "decision": "Визначити механізм повторної гіпонатріємії",
+          "required_information": [
+            "Актуальні натрій і тонічність",
+            "Одночасні показники крові й сечі, об’ємний стан і ліки"
+          ],
+          "review_moment": "Якщо натрій повторно знижений",
+          "owner": null,
+          "due_date": null,
+          "clinician_decision": null
+        },
+        {
+          "workup_id": "W17",
+          "workup_sha256": "bdde98e21ca2f1da4606326d545a3b584838ca9409fc63a305af1d3f15a21db7",
+          "decision": "Уточнити фонову хворобу печінки",
+          "required_information": [
+            "Метаболічні чинники, алкоголь і ліки",
+            "Придатні показники поза гострою хворобою"
+          ],
+          "review_moment": "За показаннями до оцінки стеатозу або фіброзу",
+          "owner": null,
+          "due_date": null,
+          "clinician_decision": null
+        }
+      ],
+      "dependencies": [
+        {
+          "from_workup_id": "W14",
+          "to_workup_id": "W2",
+          "kind": "clinical_context",
+          "label": "Зіставлення проб із фактичним лікуванням",
+          "basis_workup_id": "W2",
+          "basis_field": "rationale",
+          "basis_text": "Зіставити проби, симптоми й фактичне лікування; окремо оцінити травневу АЛТ, не переносити квітневий ступінь. Поліпшення без датованої експозиції не доводить відповіді на преднізон."
+        },
+        {
+          "from_workup_id": "W14",
+          "to_workup_id": "W3",
+          "kind": "clinical_context",
+          "label": "Час приймання супутніх препаратів",
+          "basis_workup_id": "W3",
+          "basis_field": "rationale",
+          "basis_text": "Перевірити виконане інфекційне й автоімунне обстеження, реальні ліки та структурні дані. Додаткові дослідження обирати за активністю й патерном, без повторення всього набору автоматично."
+        },
+        {
+          "from_workup_id": "W14",
+          "to_workup_id": "W4",
+          "kind": "clinical_context",
+          "label": "Експозиція перед гормональною оцінкою",
+          "basis_workup_id": "W4",
+          "basis_field": "rationale",
+          "basis_text": "Після звірки реальних стероїдів ендокринолог визначає безпечні умови ранкових кортизолу й адренокортикотропного гормону. Динамічна проба, інші осі й МРТ мають окремі показання."
+        },
+        {
+          "from_workup_id": "W14",
+          "to_workup_id": "W5",
+          "kind": "clinical_context",
+          "label": "Реальний режим замісної терапії",
+          "basis_workup_id": "W5",
+          "basis_field": "rationale",
+          "basis_text": "Зіставити реальну дозу, регулярність і супутні засоби з парними тиреотропним гормоном та вільним Т4. За підозри на центральний процес врахувати надниркову функцію до корекції заміщення."
+        },
+        {
+          "from_workup_id": "W4",
+          "to_workup_id": "W5",
+          "kind": "clinical_context",
+          "label": "Наднирковий контекст за підозри на центральний процес",
+          "basis_workup_id": "W5",
+          "basis_field": "rationale",
+          "basis_text": "Зіставити реальну дозу, регулярність і супутні засоби з парними тиреотропним гормоном та вільним Т4. За підозри на центральний процес врахувати надниркову функцію до корекції заміщення."
+        },
+        {
+          "from_workup_id": "W14",
+          "to_workup_id": "W9",
+          "kind": "clinical_context",
+          "label": "Часовий зв’язок тиску й стероїдів",
+          "basis_workup_id": "W9",
+          "basis_field": "rationale",
+          "basis_text": "Отримати результат добового моніторування або стандартизовані серії; окремо зіставити початок підвищення з реальними стероїдами та іншими чинниками."
+        },
+        {
+          "from_workup_id": "W14",
+          "to_workup_id": "W10",
+          "kind": "clinical_context",
+          "label": "Зіставлення проявів із календарем стероїдів",
+          "basis_workup_id": "W10",
+          "basis_field": "rationale",
+          "basis_text": "Уточнити набряки, вагу, тиск, сатурацію, глюкозу й календар стероїдів; подальші ниркові, тиреоїдні або кардіальні дослідження визначає огляд."
+        },
+        {
+          "from_workup_id": "W14",
+          "to_workup_id": "W13",
+          "kind": "clinical_context",
+          "label": "Експозиція для оцінки кісткового ризику",
+          "basis_workup_id": "W13",
+          "basis_field": "rationale",
+          "basis_text": "З’ясувати загоєння, функцію, механізм травми й фактичні дози стероїдів; оцінка кісткової міцності залежить від підтвердженої експозиції та інших чинників."
+        }
+      ]
+    }
   },
   "safety_field_translations": {
     "0,05 mg": "0,05 мг",

@@ -1,6 +1,7 @@
 import {readFileSync,readdirSync,statSync} from 'node:fs';
 import {createHash} from 'node:crypto';
 import {join} from 'node:path';
+import {validateCarePlanBindings} from '../src/safety/care-plan-model.ts';
 const root=new URL('../',import.meta.url).pathname;
 const json=f=>JSON.parse(readFileSync(join(root,'public',f),'utf8'));
 const sha=f=>createHash('sha256').update(readFileSync(join(root,'public',f))).digest('hex');
@@ -17,4 +18,5 @@ for(const f of walk(join(root,'public'))){
  if(/\.(pdf|docx|xlsx)$/i.test(f))throw new Error('Original document is not permitted in the public tree');
  const t=readFileSync(f,'utf8');if(prohibited.some(p=>p.test(t)))throw new Error(`Private artifact or credential pattern in ${f.slice(root.length)}`);
 }
+await validateCarePlanBindings({manifest:m,data:d,presentation:json('presentation.json')});
 console.log(JSON.stringify({status:'pass',case_id:m.case_id,candidate_sha256:m.candidate_sha256,distribution_mode:m.distribution_mode,clinician_accepted:r.clinician_accepted}));
