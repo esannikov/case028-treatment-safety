@@ -62,3 +62,17 @@
  .hb-complications .series-selector{min-width:200px}
  .hb-complications .scale-control{flex-wrap:wrap;gap:8px}
 }
+/* The argument map explains evidence roles without changing the synthesis. */
+.hb-complications .graph-purpose { max-width: 90ch; color: var(--muted); margin-bottom: 20px; }
+.hb-complications .graph-reading-guide { background: var(--background); border-radius: 12px; padding: 12px 16px; margin: 12px 0 20px; font-size: 13px; }
+.hb-complications .graph-reading-guide > summary { color: var(--primary-dark); font-weight: 600; list-style-position: inside; }
+.hb-complications .graph-reading-guide dl { margin: 16px 0; }
+.hb-complications .graph-reading-guide dl > div { display: grid; grid-template-columns: 120px minmax(0,1fr); gap: 16px; margin-top: 10px; }
+.hb-complications .graph-reading-guide dt { font-weight: 600; }
+.hb-complications .graph-reading-guide dd { margin: 0; line-height: 1.5; }
+.hb-complications .graph-reading-guide > p { margin: 12px 0 0; font-size: 13px; }
+.hb-complications .argument-specificity { display: inline-block; margin-left: 12px; color: var(--primary-dark); font-size: 12px; }
+.hb-complications .graph-edge:focus-visible { stroke-width: 4; outline: none; }
+@media(max-width:600px) {
+  .hb-complications .graph-reading-guide dl > div { grid-template-columns: 1fr; gap: 4px; }
+}
