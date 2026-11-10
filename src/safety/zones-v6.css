@@ -1,0 +1,85 @@
+/* HematoBoard zones: lavender groups measurements; plan colors retain priority. */
+.hb-complications .timeline-metrics > .trend-panel {
+  background: var(--tint);
+  border: 1px solid var(--outline);
+  border-radius: 18px;
+  padding: 24px;
+  margin: 24px 0;
+}
+.hb-complications .timeline-metrics > .trend-panel:last-child { margin-bottom: 0; }
+.hb-complications .trend-panel > .panel-heading { margin-bottom: 16px; }
+.hb-complications .trend-panel .plot-host {
+  background: var(--surface);
+  border-radius: 12px;
+  padding: 12px 8px 0;
+}
+.hb-complications .trend-panel .point-legend { padding: 12px 0; }
+.hb-complications .timeline-metrics .selected-reading {
+  background: var(--surface);
+  border: 0;
+  border-radius: 12px;
+  padding: 16px;
+  margin: 0 0 12px;
+}
+.hb-complications .trend-panel .series-selector .MuiOutlinedInput-root { background: var(--surface); }
+.hb-complications .trend-panel .quiet-details { border-top-color: var(--outline); }
+
+.hb-complications .action-group {
+  --zone-background: var(--tint);
+  --zone-heading: var(--primary-dark);
+  background: var(--zone-background);
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 24px;
+}
+.hb-complications .action-group.first {
+  --zone-background: #fbeeef;
+  --zone-heading: var(--refute);
+}
+.hb-complications .action-group.urgent {
+  --zone-background: #fbeeef;
+  --zone-heading: var(--refute);
+}
+.hb-complications .action-group .action-group-title {
+  color: var(--zone-heading);
+  border: 0;
+  font-size: 16px;
+  margin: 0 0 16px;
+  padding: 0;
+}
+.hb-complications .action-group .clear-action {
+  background: var(--surface);
+  border: 0;
+  border-radius: 14px;
+  margin: 12px 0 0;
+  padding: 20px;
+}
+.hb-complications .action-group .clear-action:first-of-type { margin-top: 0; }
+.hb-complications .consultation-questions {
+  background: #f3edf7;
+  border: 0;
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 24px;
+}
+.hb-complications .consultation-questions > h3 { color: var(--primary-dark); }
+.hb-complications .consultation-questions details {
+  background: var(--surface);
+  border-radius: 12px;
+  margin-top: 12px;
+  padding: 14px 16px;
+}
+.hb-complications .consultation-questions summary { list-style-position: inside; }
+
+@media (max-width: 760px) {
+  .hb-complications .timeline-metrics > .trend-panel {
+    padding: 16px 12px;
+    margin-block: 20px;
+    border-radius: 18px;
+  }
+  .hb-complications .trend-panel .plot-host { padding-inline: 0; }
+  .hb-complications .timeline-metrics .selected-reading { padding: 12px; }
+  .hb-complications .action-group { padding: 16px 12px; }
+  .hb-complications .action-group .clear-action { padding: 16px; }
+  .hb-complications .consultation-questions { padding: 16px 12px; }
+}

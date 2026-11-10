@@ -1,0 +1,14 @@
+{
+  "case_id": "CASE028",
+  "candidate_sha256": "73fd8ce9e9cdb5b80cb53d6e51a3e3e11386e367d14728871fbf3c8a63c8664a",
+  "patient_graph_state_sha256": "fbe2341415c23e1ed477ca57cc666d8b9233591926bd911bf053f0e516294cbf",
+  "package_url": "case-package.json",
+  "package_sha256": "5b91bbe87b5969eb7816f46d5914d2fc5a61de4419a57cf2d095dab919d04561",
+  "graph_url": "patient-graph.json",
+  "graph_sha256": "c16ae9bddc311a08182dbab76ba16cbe993801d5aeab2b96ff8bd26fff3500dc",
+  "presentation_url": "presentation.json",
+  "presentation_sha256": "2375f2eb0cca1d5addedd518e69c005877a0a3f08514fda9b02bba24222f485d",
+  "distribution_mode": "static_public_snapshot",
+  "release_url": "release.json",
+  "release_sha256": "b051321bddd7264245ef5c1dea6c99530e8f549f36f992f61d2eab51ce2090e9"
+}

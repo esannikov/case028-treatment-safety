@@ -1,0 +1,71 @@
+.hb-complications .clear-page-heading{display:flex;justify-content:space-between;align-items:flex-start;gap:24px;margin-bottom:24px}
+.hb-complications .clear-page-heading h2{margin:0 0 8px}
+.hb-complications .clear-page-heading p{margin:0;color:var(--muted);font-size:14px}
+.hb-complications .reasoning-reader{display:grid;grid-template-columns:minmax(230px,300px) minmax(0,1fr);gap:28px;align-items:start}
+.hb-complications .reasoning-choices{background:var(--surface);border:1px solid var(--outline);border-radius:18px;padding:18px 12px}
+.hb-complications .reasoning-choices h3{font-size:14px;margin:0 8px 12px;color:var(--muted)}
+.hb-complications .reasoning-choices .choice-options>button{display:block;text-align:left;width:100%;border:1px solid transparent;background:none;padding:14px 12px;border-radius:12px;font-size:14px;line-height:1.5;margin-bottom:4px}
+.hb-complications .reasoning-choices .choice-options>button strong{font-weight:600}
+.hb-complications .reasoning-choices .choice-options>button span{display:block;font-size:12px;margin-top:6px;color:var(--muted)}
+.hb-complications .reasoning-choices .choice-options>button.selected{background:#efe7fa;border-color:#cac4d0}
+.hb-complications .reasoning-detail{background:var(--surface);border:1px solid var(--outline);border-radius:18px;padding:28px;min-width:0}
+.hb-complications .reasoning-detail>h3{font-size:21px;line-height:1.4;margin-bottom:12px;max-width:48ch}
+.hb-complications .reasoning-lead{font-size:16px;line-height:1.6;margin-bottom:26px;max-width:70ch}
+.hb-complications .reasoning-detail h4{font-size:16px;margin:26px 0 8px}
+.hb-complications .clear-argument{padding:16px 0;border-bottom:1px solid var(--rule)}
+.hb-complications .clear-argument>p{font-size:15px;line-height:1.6;margin:8px 0 4px;max-width:72ch}
+.hb-complications .argument-kind{font-size:12px;font-weight:650;color:var(--muted)}
+.hb-complications .argument-kind.support{color:#126b31}
+.hb-complications .argument-kind.refute{color:#a81e26}
+.hb-complications .clear-source.MuiButton-root{padding-left:0;justify-content:flex-start;text-align:left;flex-wrap:wrap;gap:3px}
+.hb-complications .clear-argument>details{font-size:13px;margin-top:8px;color:var(--muted)}
+.hb-complications .clear-argument>details p{margin:10px 0;max-width:72ch}
+.hb-complications .reasoning-next{padding-bottom:22px;border-bottom:1px solid var(--rule)}
+.hb-complications .reasoning-next ul{padding-left:20px;margin:12px 0 18px}
+.hb-complications .reasoning-next li{margin:6px 0}
+.hb-complications .full-interpretation{margin-top:22px;font-size:14px}
+.hb-complications .full-interpretation>p{margin-top:16px;max-width:72ch}
+.hb-complications .clear-plan{max-width:1120px}
+.hb-complications .plan-search{max-width:520px;margin-bottom:24px}
+.hb-complications .action-group{margin-top:24px}
+.hb-complications .action-group-title{font-size:14px;font-weight:650;letter-spacing:0;border-bottom:1px solid var(--outline);padding-bottom:10px;color:var(--muted)}
+.hb-complications .action-group.urgent .action-group-title{color:#a81e26}
+.hb-complications .clear-action{padding:18px 0 24px;border-bottom:1px solid var(--rule)}
+.hb-complications .clear-action h3{font-size:18px;line-height:1.4;margin:0 0 10px}
+.hb-complications .action-explanation{font-size:15px;line-height:1.6;max-width:80ch;margin-bottom:10px}
+.hb-complications .action-condition{font-size:14px;line-height:1.6;color:var(--muted);max-width:84ch;margin-bottom:12px}
+.hb-complications .action-detail{font-size:13px;margin-top:14px;color:var(--muted)}
+.hb-complications .action-detail>div{margin-top:14px}
+.hb-complications .original-plan-label{font-size:13px;margin-top:20px}
+.hb-complications .consultation-questions{margin-top:32px;padding-top:20px;border-top:1px solid var(--outline)}
+.hb-complications .consultation-questions>h3{font-size:17px;margin-bottom:14px}
+.hb-complications .consultation-questions details{font-size:15px;line-height:1.6;padding:10px 0}
+.hb-complications .consultation-questions summary{font-weight:600}
+.hb-complications .clarity-timeline .timeline-metrics{margin-top:12px}
+.hb-complications .metric-selection{display:flex;gap:16px;align-items:center;margin:12px 0 26px}
+.hb-complications .metric-selection>.MuiAutocomplete-root{flex:1;min-width:0}
+.hb-complications .history-controls{display:flex;gap:16px;margin-bottom:28px}
+.hb-complications .history-controls>.MuiTextField-root{min-width:180px}
+.hb-complications .history-year{margin-top:28px}
+.hb-complications .history-year>h3{font-size:22px;padding-bottom:12px;border-bottom:1px solid var(--outline)}
+.hb-complications .clear-event-list{list-style:none;padding:0;margin:0}
+.hb-complications .clear-event-list>li{display:grid;grid-template-columns:115px minmax(0,1fr) auto;align-items:start;gap:20px;border-bottom:1px solid var(--rule);padding:17px 0}
+.hb-complications .event-date time{display:block;font-size:14px;font-weight:600;white-space:nowrap}
+.hb-complications .event-date small{display:block;font-size:12px;margin-top:5px}
+.hb-complications .event-kind{display:block;color:var(--muted);font-size:12px;margin-bottom:5px}
+.hb-complications .event-content strong{display:block;font-size:15px;font-weight:550;line-height:1.55}
+.hb-complications .event-actions{display:flex;flex-direction:column;align-items:flex-start}
+.hb-complications .event-actions .MuiButton-root{white-space:nowrap}
+.hb-complications .episode-event-feed{margin-top:28px;padding-top:18px;border-top:1px solid var(--outline)}
+.hb-complications .episode-event-feed>h3{font-size:18px;margin-bottom:16px}
+@media(max-width:1100px){.hb-complications .reasoning-reader{grid-template-columns:240px minmax(0,1fr);gap:16px}.hb-complications .clear-page-heading{flex-wrap:wrap}.hb-complications .clear-event-list>li{grid-template-columns:100px minmax(0,1fr)}.hb-complications .event-actions{grid-column:2}.hb-complications .metric-selection{flex-wrap:wrap}.hb-complications .metric-selection>.MuiAutocomplete-root{flex-basis:100%}}
+@media(max-width:760px){.hb-complications .reasoning-reader{grid-template-columns:1fr}.hb-complications .reasoning-choices{padding:12px}.hb-complications .reasoning-choices .choice-options>button{padding:10px}.hb-complications .reasoning-detail{padding:20px 16px}.hb-complications .reasoning-detail>h3{font-size:19px}.hb-complications .clear-page-heading{gap:16px}.hb-complications .history-controls{flex-wrap:wrap}.hb-complications .history-controls>.MuiTextField-root{min-width:0;flex:1}.hb-complications .clear-event-list>li{grid-template-columns:1fr;gap:8px}.hb-complications .event-date{display:flex;gap:10px;align-items:baseline}.hb-complications .event-actions{grid-column:1}.hb-complications .clear-action h3{font-size:17px}}
+
+.hb-complications .causality-state{margin:8px 0 0;font-size:14px;color:var(--muted)}
+.hb-complications .causality-state strong{color:var(--ink);font-weight:600}
+
+.hb-complications .reasoning-reader.single{grid-template-columns:1fr}
+.hb-complications .reasoning-choices .choice-toggle{display:none}
+@media(max-width:760px){.hb-complications .reasoning-choices{padding:0;border:0;background:none}.hb-complications .reasoning-choices>h3{display:none}.hb-complications .reasoning-choices .choice-toggle{display:flex;width:100%;min-height:44px}.hb-complications .reasoning-choices .choice-options{display:none}.hb-complications .reasoning-choices.expanded .choice-options{display:block;padding-top:12px}}
+
+.hb-complications .event-dose{display:block;margin-top:5px;font-size:13px;color:var(--muted);line-height:1.5}

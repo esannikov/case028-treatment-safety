@@ -1,0 +1,1709 @@
+{
+  "schema_version": "case028.public-snapshot/1.0",
+  "case_id": "CASE028",
+  "candidate_sha256": "73fd8ce9e9cdb5b80cb53d6e51a3e3e11386e367d14728871fbf3c8a63c8664a",
+  "clinical_input_sha256": "ebfad7f05239cd87547ca4aa88979c8bbbce613a0a013ff67759ad8354381df9",
+  "patient_graph_state_sha256": "fbe2341415c23e1ed477ca57cc666d8b9233591926bd911bf053f0e516294cbf",
+  "files": {
+    "package_sha256": "5b91bbe87b5969eb7816f46d5914d2fc5a61de4419a57cf2d095dab919d04561",
+    "graph_sha256": "c16ae9bddc311a08182dbab76ba16cbe993801d5aeab2b96ff8bd26fff3500dc",
+    "presentation_sha256": "2375f2eb0cca1d5addedd518e69c005877a0a3f08514fda9b02bba24222f485d"
+  },
+  "publication_authorized_by_user": true,
+  "publication_request_date": "2026-11-10",
+  "clinician_accepted": false,
+  "source_review": {
+    "mode": "delegated_technical",
+    "technical_verified": true,
+    "human_verified": false
+  },
+  "snapshot_kind": "standalone_public_demonstration",
+  "updates": "This is a frozen publication; it does not query a live clinical record.",
+  "privacy_projection": {
+    "kind": "minimum_public_ui_projection",
+    "redacted_source_objects": [
+      "FD-RB-DBBC6501ABD66AEA"
+    ],
+    "redactions": [
+      {
+        "path": "/clinical_history/findings/833/text",
+        "public_text_sha256": "b04557dc38b83888cd036e9fec05cc2fadd65d6e43a6d65f49a34340bb54a8f2",
+        "category": "nonclinical_location",
+        "file": "public/case-package.json"
+      },
+      {
+        "path": "/patient_projection/objects/921/label",
+        "public_text_sha256": "b04557dc38b83888cd036e9fec05cc2fadd65d6e43a6d65f49a34340bb54a8f2",
+        "category": "nonclinical_location",
+        "file": "public/case-package.json"
+      },
+      {
+        "path": "/projection/facts/236/value/text",
+        "public_text_sha256": "b04557dc38b83888cd036e9fec05cc2fadd65d6e43a6d65f49a34340bb54a8f2",
+        "category": "nonclinical_location",
+        "file": "public/case-package.json"
+      },
+      {
+        "path": "/projection/source_records/228/literal",
+        "public_text_sha256": "b04557dc38b83888cd036e9fec05cc2fadd65d6e43a6d65f49a34340bb54a8f2",
+        "category": "nonclinical_location",
+        "file": "public/case-package.json"
+      },
+      {
+        "path": "/projection/source_records/228/source_structure/fields/0/literal",
+        "public_text_sha256": "b04557dc38b83888cd036e9fec05cc2fadd65d6e43a6d65f49a34340bb54a8f2",
+        "category": "nonclinical_location",
+        "file": "public/case-package.json"
+      },
+      {
+        "path": "/projection/source_records/228/source_structure/fields/1/literal",
+        "public_text_sha256": "b04557dc38b83888cd036e9fec05cc2fadd65d6e43a6d65f49a34340bb54a8f2",
+        "category": "nonclinical_location",
+        "file": "public/case-package.json"
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/clinical_history/findings/23/text",
+        "public_text_sha256": "55bb2d3c2fe4b3e9b93d4f218f54a5bfee6797746297f6c417e3fd30ce2f3319",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/clinical_history/findings/40/text",
+        "public_text_sha256": "b5991bf4771fdc6008f7dbb1184be449948364361639efd0e840acc290c3250b",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/clinical_history/findings/83/text",
+        "public_text_sha256": "0817aeac833a1a0a964c297681653d986b374f1da96deee4ffff589747f2b711",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/clinical_history/findings/169/text",
+        "public_text_sha256": "ee5504bbba25415b34ad39a0f4d62a41b246f2ab04e606c4b200e6e569ac5862",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/clinical_history/findings/180/text",
+        "public_text_sha256": "0817aeac833a1a0a964c297681653d986b374f1da96deee4ffff589747f2b711",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/clinical_history/findings/280/text",
+        "public_text_sha256": "071a5935af14fee1f8081585a6e8c5101dfeb837afda647b37db2ba55926c0ba",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/clinical_history/findings/305/text",
+        "public_text_sha256": "2e4afe25273399213de597bed79e5e5ca552145b4651a0babd04cfa268575724",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/clinical_history/findings/315/text",
+        "public_text_sha256": "96c42c0b40fbfe7534a764a100b2dcee3839af4b77be0f04958af65f4ae613f7",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/clinical_history/findings/437/text",
+        "public_text_sha256": "5fa705fcae75473be00324ded4ec83fc8f44188f7621a6db202a41b3637d9c5d",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/clinical_history/findings/459/text",
+        "public_text_sha256": "7162cd255c0d0c643812d08ddfe0702507ded52dfb5e6894a148b4e30d086548",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/clinical_history/findings/463/text",
+        "public_text_sha256": "b5991bf4771fdc6008f7dbb1184be449948364361639efd0e840acc290c3250b",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/clinical_history/findings/524/text",
+        "public_text_sha256": "2cb7d325c89609be8187d167d253f0a02f8461304f11b28591db35da6b42d485",
+        "categories": [
+          "city"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/clinical_history/findings/604/text",
+        "public_text_sha256": "25bfd84724e748622a05160a21a9e4812e6863ba952f82da5f6f074366c0c567",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/clinical_history/findings/656/text",
+        "public_text_sha256": "12037b3d82ba9d6deefcebd26f6da4406d567d2ee6cc79547982f8f86b7f4a5f",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/clinical_history/findings/722/text",
+        "public_text_sha256": "139c2188b2e5cd4f343bec607b6ae73368603b2c125b8e7091ef4e169804d47e",
+        "categories": [
+          "country",
+          "facility_city"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/clinical_history/findings/743/text",
+        "public_text_sha256": "fa59a57372059bbf01af12ed1406c377aba9f47780a20b95d0d67fc071069b4a",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/clinical_history/findings/782/text",
+        "public_text_sha256": "f9dec561aaef8676640acb261525ea8e5159ae224f1f42ea9adc69bdc4bc69b8",
+        "categories": [
+          "city"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/clinical_history/findings/794/text",
+        "public_text_sha256": "12037b3d82ba9d6deefcebd26f6da4406d567d2ee6cc79547982f8f86b7f4a5f",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/clinical_history/findings/921/text",
+        "public_text_sha256": "caa241b5e37d982cc87b4db4a90e2666f7b689a1dd575d8ce942ba63ed3dc0f9",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/clinical_history/findings/940/text",
+        "public_text_sha256": "4e08b74e4d4766a96f309eac5446e3377b266f2cb43523cc22cc9a947e348a19",
+        "categories": [
+          "city",
+          "facility"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/patient_projection/objects/111/label",
+        "public_text_sha256": "55bb2d3c2fe4b3e9b93d4f218f54a5bfee6797746297f6c417e3fd30ce2f3319",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/patient_projection/objects/128/label",
+        "public_text_sha256": "b5991bf4771fdc6008f7dbb1184be449948364361639efd0e840acc290c3250b",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/patient_projection/objects/171/label",
+        "public_text_sha256": "0817aeac833a1a0a964c297681653d986b374f1da96deee4ffff589747f2b711",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/patient_projection/objects/257/label",
+        "public_text_sha256": "ee5504bbba25415b34ad39a0f4d62a41b246f2ab04e606c4b200e6e569ac5862",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/patient_projection/objects/268/label",
+        "public_text_sha256": "0817aeac833a1a0a964c297681653d986b374f1da96deee4ffff589747f2b711",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/patient_projection/objects/368/label",
+        "public_text_sha256": "071a5935af14fee1f8081585a6e8c5101dfeb837afda647b37db2ba55926c0ba",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/patient_projection/objects/393/label",
+        "public_text_sha256": "2e4afe25273399213de597bed79e5e5ca552145b4651a0babd04cfa268575724",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/patient_projection/objects/403/label",
+        "public_text_sha256": "96c42c0b40fbfe7534a764a100b2dcee3839af4b77be0f04958af65f4ae613f7",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/patient_projection/objects/525/label",
+        "public_text_sha256": "5fa705fcae75473be00324ded4ec83fc8f44188f7621a6db202a41b3637d9c5d",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/patient_projection/objects/547/label",
+        "public_text_sha256": "7162cd255c0d0c643812d08ddfe0702507ded52dfb5e6894a148b4e30d086548",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/patient_projection/objects/551/label",
+        "public_text_sha256": "b5991bf4771fdc6008f7dbb1184be449948364361639efd0e840acc290c3250b",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/patient_projection/objects/612/label",
+        "public_text_sha256": "2cb7d325c89609be8187d167d253f0a02f8461304f11b28591db35da6b42d485",
+        "categories": [
+          "city"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/patient_projection/objects/692/label",
+        "public_text_sha256": "25bfd84724e748622a05160a21a9e4812e6863ba952f82da5f6f074366c0c567",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/patient_projection/objects/744/label",
+        "public_text_sha256": "12037b3d82ba9d6deefcebd26f6da4406d567d2ee6cc79547982f8f86b7f4a5f",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/patient_projection/objects/810/label",
+        "public_text_sha256": "139c2188b2e5cd4f343bec607b6ae73368603b2c125b8e7091ef4e169804d47e",
+        "categories": [
+          "country",
+          "facility_city"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/patient_projection/objects/831/label",
+        "public_text_sha256": "fa59a57372059bbf01af12ed1406c377aba9f47780a20b95d0d67fc071069b4a",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/patient_projection/objects/870/label",
+        "public_text_sha256": "f9dec561aaef8676640acb261525ea8e5159ae224f1f42ea9adc69bdc4bc69b8",
+        "categories": [
+          "city"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/patient_projection/objects/882/label",
+        "public_text_sha256": "12037b3d82ba9d6deefcebd26f6da4406d567d2ee6cc79547982f8f86b7f4a5f",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/patient_projection/objects/1009/label",
+        "public_text_sha256": "caa241b5e37d982cc87b4db4a90e2666f7b689a1dd575d8ce942ba63ed3dc0f9",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/patient_projection/objects/1028/label",
+        "public_text_sha256": "4e08b74e4d4766a96f309eac5446e3377b266f2cb43523cc22cc9a947e348a19",
+        "categories": [
+          "city",
+          "facility"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/patient_projection/treatment_safety/entities/3/evidence/1/quote",
+        "public_text_sha256": "139c2188b2e5cd4f343bec607b6ae73368603b2c125b8e7091ef4e169804d47e",
+        "categories": [
+          "country",
+          "facility_city"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/patient_projection/treatment_safety/entities/10/evidence/0/quote",
+        "public_text_sha256": "139c2188b2e5cd4f343bec607b6ae73368603b2c125b8e7091ef4e169804d47e",
+        "categories": [
+          "country",
+          "facility_city"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/patient_projection/treatment_safety/entities/12/evidence/1/quote",
+        "public_text_sha256": "139c2188b2e5cd4f343bec607b6ae73368603b2c125b8e7091ef4e169804d47e",
+        "categories": [
+          "country",
+          "facility_city"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/patient_projection/treatment_safety/entities/43/evidence/0/quote",
+        "public_text_sha256": "139c2188b2e5cd4f343bec607b6ae73368603b2c125b8e7091ef4e169804d47e",
+        "categories": [
+          "country",
+          "facility_city"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/patient_projection/treatment_safety/entities/64/evidence/1/quote",
+        "public_text_sha256": "139c2188b2e5cd4f343bec607b6ae73368603b2c125b8e7091ef4e169804d47e",
+        "categories": [
+          "country",
+          "facility_city"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/patient_projection/treatment_safety/entities/65/evidence/1/quote",
+        "public_text_sha256": "139c2188b2e5cd4f343bec607b6ae73368603b2c125b8e7091ef4e169804d47e",
+        "categories": [
+          "country",
+          "facility_city"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/patient_projection/treatment_safety/entities/79/evidence/0/quote",
+        "public_text_sha256": "139c2188b2e5cd4f343bec607b6ae73368603b2c125b8e7091ef4e169804d47e",
+        "categories": [
+          "country",
+          "facility_city"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/patient_projection/treatment_safety/relations/28/evidence/0/quote",
+        "public_text_sha256": "139c2188b2e5cd4f343bec607b6ae73368603b2c125b8e7091ef4e169804d47e",
+        "categories": [
+          "country",
+          "facility_city"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/patient_projection/treatment_safety/relations/40/evidence/0/quote",
+        "public_text_sha256": "139c2188b2e5cd4f343bec607b6ae73368603b2c125b8e7091ef4e169804d47e",
+        "categories": [
+          "country",
+          "facility_city"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/facts/44/value/text",
+        "public_text_sha256": "4e08b74e4d4766a96f309eac5446e3377b266f2cb43523cc22cc9a947e348a19",
+        "categories": [
+          "city",
+          "facility"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/facts/46/value/text",
+        "public_text_sha256": "2cb7d325c89609be8187d167d253f0a02f8461304f11b28591db35da6b42d485",
+        "categories": [
+          "city"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/facts/168/value/text",
+        "public_text_sha256": "96c42c0b40fbfe7534a764a100b2dcee3839af4b77be0f04958af65f4ae613f7",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/facts/169/value/text",
+        "public_text_sha256": "071a5935af14fee1f8081585a6e8c5101dfeb837afda647b37db2ba55926c0ba",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/facts/207/value/text",
+        "public_text_sha256": "5fa705fcae75473be00324ded4ec83fc8f44188f7621a6db202a41b3637d9c5d",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/facts/208/value/text",
+        "public_text_sha256": "caa241b5e37d982cc87b4db4a90e2666f7b689a1dd575d8ce942ba63ed3dc0f9",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/facts/305/value/text",
+        "public_text_sha256": "789b7e104bc0e351ab5f60b7fc3f620f3ec0ba56b8d627d1bd7c5cf8c731f7b6",
+        "categories": [
+          "administrative_record_number"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/facts/344/value/text",
+        "public_text_sha256": "f9dec561aaef8676640acb261525ea8e5159ae224f1f42ea9adc69bdc4bc69b8",
+        "categories": [
+          "city"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/facts/361/value/text",
+        "public_text_sha256": "2e4afe25273399213de597bed79e5e5ca552145b4651a0babd04cfa268575724",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/facts/362/value/text",
+        "public_text_sha256": "ee5504bbba25415b34ad39a0f4d62a41b246f2ab04e606c4b200e6e569ac5862",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/facts/485/value/text",
+        "public_text_sha256": "0817aeac833a1a0a964c297681653d986b374f1da96deee4ffff589747f2b711",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/facts/486/value/text",
+        "public_text_sha256": "7162cd255c0d0c643812d08ddfe0702507ded52dfb5e6894a148b4e30d086548",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/facts/790/value/text",
+        "public_text_sha256": "0817aeac833a1a0a964c297681653d986b374f1da96deee4ffff589747f2b711",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/facts/791/value/text",
+        "public_text_sha256": "fa59a57372059bbf01af12ed1406c377aba9f47780a20b95d0d67fc071069b4a",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/facts/1414/value/text",
+        "public_text_sha256": "12037b3d82ba9d6deefcebd26f6da4406d567d2ee6cc79547982f8f86b7f4a5f",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/facts/1416/value/text",
+        "public_text_sha256": "b5991bf4771fdc6008f7dbb1184be449948364361639efd0e840acc290c3250b",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/facts/1503/value/text",
+        "public_text_sha256": "25bfd84724e748622a05160a21a9e4812e6863ba952f82da5f6f074366c0c567",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/facts/1504/value/text",
+        "public_text_sha256": "55bb2d3c2fe4b3e9b93d4f218f54a5bfee6797746297f6c417e3fd30ce2f3319",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/facts/1913/value/text",
+        "public_text_sha256": "12037b3d82ba9d6deefcebd26f6da4406d567d2ee6cc79547982f8f86b7f4a5f",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/facts/1915/value/text",
+        "public_text_sha256": "b5991bf4771fdc6008f7dbb1184be449948364361639efd0e840acc290c3250b",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/facts/2410/value/text",
+        "public_text_sha256": "139c2188b2e5cd4f343bec607b6ae73368603b2c125b8e7091ef4e169804d47e",
+        "categories": [
+          "country",
+          "facility_city"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/facts/2602/value/text",
+        "public_text_sha256": "cad2e05f2f87f8818b69d37d91a36e8995a8ffa574b01cf2112ddd8ebd216ef9",
+        "categories": [
+          "related_person"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/justification_graph/nodes/12/label",
+        "public_text_sha256": "139c2188b2e5cd4f343bec607b6ae73368603b2c125b8e7091ef4e169804d47e",
+        "categories": [
+          "country",
+          "facility_city"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/41/literal",
+        "public_text_sha256": "4e08b74e4d4766a96f309eac5446e3377b266f2cb43523cc22cc9a947e348a19",
+        "categories": [
+          "city",
+          "facility"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/41/source_structure/fields/0/literal",
+        "public_text_sha256": "4e08b74e4d4766a96f309eac5446e3377b266f2cb43523cc22cc9a947e348a19",
+        "categories": [
+          "city",
+          "facility"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/41/source_structure/fields/1/literal",
+        "public_text_sha256": "4e08b74e4d4766a96f309eac5446e3377b266f2cb43523cc22cc9a947e348a19",
+        "categories": [
+          "city",
+          "facility"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/43/literal",
+        "public_text_sha256": "2cb7d325c89609be8187d167d253f0a02f8461304f11b28591db35da6b42d485",
+        "categories": [
+          "city"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/43/source_structure/fields/0/literal",
+        "public_text_sha256": "2cb7d325c89609be8187d167d253f0a02f8461304f11b28591db35da6b42d485",
+        "categories": [
+          "city"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/43/source_structure/fields/1/literal",
+        "public_text_sha256": "2cb7d325c89609be8187d167d253f0a02f8461304f11b28591db35da6b42d485",
+        "categories": [
+          "city"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/162/literal",
+        "public_text_sha256": "96c42c0b40fbfe7534a764a100b2dcee3839af4b77be0f04958af65f4ae613f7",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/162/source_structure/fields/0/literal",
+        "public_text_sha256": "96c42c0b40fbfe7534a764a100b2dcee3839af4b77be0f04958af65f4ae613f7",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/162/source_structure/fields/1/literal",
+        "public_text_sha256": "96c42c0b40fbfe7534a764a100b2dcee3839af4b77be0f04958af65f4ae613f7",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/163/literal",
+        "public_text_sha256": "071a5935af14fee1f8081585a6e8c5101dfeb837afda647b37db2ba55926c0ba",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/163/source_structure/fields/0/literal",
+        "public_text_sha256": "071a5935af14fee1f8081585a6e8c5101dfeb837afda647b37db2ba55926c0ba",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/163/source_structure/fields/1/literal",
+        "public_text_sha256": "071a5935af14fee1f8081585a6e8c5101dfeb837afda647b37db2ba55926c0ba",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/200/literal",
+        "public_text_sha256": "5fa705fcae75473be00324ded4ec83fc8f44188f7621a6db202a41b3637d9c5d",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/200/source_structure/fields/0/literal",
+        "public_text_sha256": "5fa705fcae75473be00324ded4ec83fc8f44188f7621a6db202a41b3637d9c5d",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/200/source_structure/fields/1/literal",
+        "public_text_sha256": "5fa705fcae75473be00324ded4ec83fc8f44188f7621a6db202a41b3637d9c5d",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/201/literal",
+        "public_text_sha256": "caa241b5e37d982cc87b4db4a90e2666f7b689a1dd575d8ce942ba63ed3dc0f9",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/201/source_structure/fields/0/literal",
+        "public_text_sha256": "caa241b5e37d982cc87b4db4a90e2666f7b689a1dd575d8ce942ba63ed3dc0f9",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/201/source_structure/fields/1/literal",
+        "public_text_sha256": "caa241b5e37d982cc87b4db4a90e2666f7b689a1dd575d8ce942ba63ed3dc0f9",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/294/literal",
+        "public_text_sha256": "3d517f3da6e2bf47ebb96fae5dd06fc22a13b52cd39a8676cf898ee6707aeaa5",
+        "categories": [
+          "administrative_record_number"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/294/source_structure/fields/0/literal",
+        "public_text_sha256": "3d517f3da6e2bf47ebb96fae5dd06fc22a13b52cd39a8676cf898ee6707aeaa5",
+        "categories": [
+          "administrative_record_number"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/294/source_structure/fields/1/literal",
+        "public_text_sha256": "3d517f3da6e2bf47ebb96fae5dd06fc22a13b52cd39a8676cf898ee6707aeaa5",
+        "categories": [
+          "administrative_record_number"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/326/literal",
+        "public_text_sha256": "f9dec561aaef8676640acb261525ea8e5159ae224f1f42ea9adc69bdc4bc69b8",
+        "categories": [
+          "city"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/326/source_structure/fields/0/literal",
+        "public_text_sha256": "f9dec561aaef8676640acb261525ea8e5159ae224f1f42ea9adc69bdc4bc69b8",
+        "categories": [
+          "city"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/326/source_structure/fields/1/literal",
+        "public_text_sha256": "f9dec561aaef8676640acb261525ea8e5159ae224f1f42ea9adc69bdc4bc69b8",
+        "categories": [
+          "city"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/342/literal",
+        "public_text_sha256": "2e4afe25273399213de597bed79e5e5ca552145b4651a0babd04cfa268575724",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/342/source_structure/fields/0/literal",
+        "public_text_sha256": "2e4afe25273399213de597bed79e5e5ca552145b4651a0babd04cfa268575724",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/342/source_structure/fields/1/literal",
+        "public_text_sha256": "2e4afe25273399213de597bed79e5e5ca552145b4651a0babd04cfa268575724",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/343/literal",
+        "public_text_sha256": "ee5504bbba25415b34ad39a0f4d62a41b246f2ab04e606c4b200e6e569ac5862",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/343/source_structure/fields/0/literal",
+        "public_text_sha256": "ee5504bbba25415b34ad39a0f4d62a41b246f2ab04e606c4b200e6e569ac5862",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/343/source_structure/fields/1/literal",
+        "public_text_sha256": "ee5504bbba25415b34ad39a0f4d62a41b246f2ab04e606c4b200e6e569ac5862",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/463/literal",
+        "public_text_sha256": "0817aeac833a1a0a964c297681653d986b374f1da96deee4ffff589747f2b711",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/463/source_structure/fields/0/literal",
+        "public_text_sha256": "0817aeac833a1a0a964c297681653d986b374f1da96deee4ffff589747f2b711",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/463/source_structure/fields/1/literal",
+        "public_text_sha256": "0817aeac833a1a0a964c297681653d986b374f1da96deee4ffff589747f2b711",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/464/literal",
+        "public_text_sha256": "7162cd255c0d0c643812d08ddfe0702507ded52dfb5e6894a148b4e30d086548",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/464/source_structure/fields/0/literal",
+        "public_text_sha256": "7162cd255c0d0c643812d08ddfe0702507ded52dfb5e6894a148b4e30d086548",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/464/source_structure/fields/1/literal",
+        "public_text_sha256": "7162cd255c0d0c643812d08ddfe0702507ded52dfb5e6894a148b4e30d086548",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/761/literal",
+        "public_text_sha256": "0817aeac833a1a0a964c297681653d986b374f1da96deee4ffff589747f2b711",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/761/source_structure/fields/0/literal",
+        "public_text_sha256": "0817aeac833a1a0a964c297681653d986b374f1da96deee4ffff589747f2b711",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/761/source_structure/fields/1/literal",
+        "public_text_sha256": "0817aeac833a1a0a964c297681653d986b374f1da96deee4ffff589747f2b711",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/762/literal",
+        "public_text_sha256": "fa59a57372059bbf01af12ed1406c377aba9f47780a20b95d0d67fc071069b4a",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/762/source_structure/fields/0/literal",
+        "public_text_sha256": "fa59a57372059bbf01af12ed1406c377aba9f47780a20b95d0d67fc071069b4a",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/762/source_structure/fields/1/literal",
+        "public_text_sha256": "fa59a57372059bbf01af12ed1406c377aba9f47780a20b95d0d67fc071069b4a",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/1354/literal",
+        "public_text_sha256": "12037b3d82ba9d6deefcebd26f6da4406d567d2ee6cc79547982f8f86b7f4a5f",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/1354/source_structure/fields/0/literal",
+        "public_text_sha256": "12037b3d82ba9d6deefcebd26f6da4406d567d2ee6cc79547982f8f86b7f4a5f",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/1354/source_structure/fields/1/literal",
+        "public_text_sha256": "12037b3d82ba9d6deefcebd26f6da4406d567d2ee6cc79547982f8f86b7f4a5f",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/1356/literal",
+        "public_text_sha256": "b5991bf4771fdc6008f7dbb1184be449948364361639efd0e840acc290c3250b",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/1356/source_structure/fields/0/literal",
+        "public_text_sha256": "b5991bf4771fdc6008f7dbb1184be449948364361639efd0e840acc290c3250b",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/1356/source_structure/fields/1/literal",
+        "public_text_sha256": "b5991bf4771fdc6008f7dbb1184be449948364361639efd0e840acc290c3250b",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/1442/literal",
+        "public_text_sha256": "25bfd84724e748622a05160a21a9e4812e6863ba952f82da5f6f074366c0c567",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/1442/source_structure/fields/0/literal",
+        "public_text_sha256": "25bfd84724e748622a05160a21a9e4812e6863ba952f82da5f6f074366c0c567",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/1442/source_structure/fields/1/literal",
+        "public_text_sha256": "25bfd84724e748622a05160a21a9e4812e6863ba952f82da5f6f074366c0c567",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/1443/literal",
+        "public_text_sha256": "55bb2d3c2fe4b3e9b93d4f218f54a5bfee6797746297f6c417e3fd30ce2f3319",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/1443/source_structure/fields/0/literal",
+        "public_text_sha256": "55bb2d3c2fe4b3e9b93d4f218f54a5bfee6797746297f6c417e3fd30ce2f3319",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/1443/source_structure/fields/1/literal",
+        "public_text_sha256": "55bb2d3c2fe4b3e9b93d4f218f54a5bfee6797746297f6c417e3fd30ce2f3319",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/1847/literal",
+        "public_text_sha256": "12037b3d82ba9d6deefcebd26f6da4406d567d2ee6cc79547982f8f86b7f4a5f",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/1847/source_structure/fields/0/literal",
+        "public_text_sha256": "12037b3d82ba9d6deefcebd26f6da4406d567d2ee6cc79547982f8f86b7f4a5f",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/1847/source_structure/fields/1/literal",
+        "public_text_sha256": "12037b3d82ba9d6deefcebd26f6da4406d567d2ee6cc79547982f8f86b7f4a5f",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/1849/literal",
+        "public_text_sha256": "b5991bf4771fdc6008f7dbb1184be449948364361639efd0e840acc290c3250b",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/1849/source_structure/fields/0/literal",
+        "public_text_sha256": "b5991bf4771fdc6008f7dbb1184be449948364361639efd0e840acc290c3250b",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/1849/source_structure/fields/1/literal",
+        "public_text_sha256": "b5991bf4771fdc6008f7dbb1184be449948364361639efd0e840acc290c3250b",
+        "categories": [
+          "country"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/2328/literal",
+        "public_text_sha256": "139c2188b2e5cd4f343bec607b6ae73368603b2c125b8e7091ef4e169804d47e",
+        "categories": [
+          "country",
+          "facility_city"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/2328/source_structure/fields/0/literal",
+        "public_text_sha256": "139c2188b2e5cd4f343bec607b6ae73368603b2c125b8e7091ef4e169804d47e",
+        "categories": [
+          "country",
+          "facility_city"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/2328/source_structure/fields/1/literal",
+        "public_text_sha256": "139c2188b2e5cd4f343bec607b6ae73368603b2c125b8e7091ef4e169804d47e",
+        "categories": [
+          "country",
+          "facility_city"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/2510/literal",
+        "public_text_sha256": "fc37fc2aba7c4c3a869c18be8ac786bbbf9f52c0cf0ab0ede82342c49ffd3cef",
+        "categories": [
+          "related_person"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/2510/source_structure/fields/0/literal",
+        "public_text_sha256": "fc37fc2aba7c4c3a869c18be8ac786bbbf9f52c0cf0ab0ede82342c49ffd3cef",
+        "categories": [
+          "related_person"
+        ]
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/2510/source_structure/fields/1/literal",
+        "public_text_sha256": "fc37fc2aba7c4c3a869c18be8ac786bbbf9f52c0cf0ab0ede82342c49ffd3cef",
+        "categories": [
+          "related_person"
+        ]
+      },
+      {
+        "file": "public/patient-graph.json",
+        "path": "/treatment_safety/entities/3/evidence/1/quote",
+        "public_text_sha256": "139c2188b2e5cd4f343bec607b6ae73368603b2c125b8e7091ef4e169804d47e",
+        "categories": [
+          "country",
+          "facility_city"
+        ]
+      },
+      {
+        "file": "public/patient-graph.json",
+        "path": "/treatment_safety/entities/10/evidence/0/quote",
+        "public_text_sha256": "139c2188b2e5cd4f343bec607b6ae73368603b2c125b8e7091ef4e169804d47e",
+        "categories": [
+          "country",
+          "facility_city"
+        ]
+      },
+      {
+        "file": "public/patient-graph.json",
+        "path": "/treatment_safety/entities/12/evidence/1/quote",
+        "public_text_sha256": "139c2188b2e5cd4f343bec607b6ae73368603b2c125b8e7091ef4e169804d47e",
+        "categories": [
+          "country",
+          "facility_city"
+        ]
+      },
+      {
+        "file": "public/patient-graph.json",
+        "path": "/treatment_safety/entities/43/evidence/0/quote",
+        "public_text_sha256": "139c2188b2e5cd4f343bec607b6ae73368603b2c125b8e7091ef4e169804d47e",
+        "categories": [
+          "country",
+          "facility_city"
+        ]
+      },
+      {
+        "file": "public/patient-graph.json",
+        "path": "/treatment_safety/entities/64/evidence/1/quote",
+        "public_text_sha256": "139c2188b2e5cd4f343bec607b6ae73368603b2c125b8e7091ef4e169804d47e",
+        "categories": [
+          "country",
+          "facility_city"
+        ]
+      },
+      {
+        "file": "public/patient-graph.json",
+        "path": "/treatment_safety/entities/65/evidence/1/quote",
+        "public_text_sha256": "139c2188b2e5cd4f343bec607b6ae73368603b2c125b8e7091ef4e169804d47e",
+        "categories": [
+          "country",
+          "facility_city"
+        ]
+      },
+      {
+        "file": "public/patient-graph.json",
+        "path": "/treatment_safety/entities/79/evidence/0/quote",
+        "public_text_sha256": "139c2188b2e5cd4f343bec607b6ae73368603b2c125b8e7091ef4e169804d47e",
+        "categories": [
+          "country",
+          "facility_city"
+        ]
+      },
+      {
+        "file": "public/patient-graph.json",
+        "path": "/treatment_safety/relations/28/evidence/0/quote",
+        "public_text_sha256": "139c2188b2e5cd4f343bec607b6ae73368603b2c125b8e7091ef4e169804d47e",
+        "categories": [
+          "country",
+          "facility_city"
+        ]
+      },
+      {
+        "file": "public/patient-graph.json",
+        "path": "/treatment_safety/relations/40/evidence/0/quote",
+        "public_text_sha256": "139c2188b2e5cd4f343bec607b6ae73368603b2c125b8e7091ef4e169804d47e",
+        "categories": [
+          "country",
+          "facility_city"
+        ]
+      },
+      {
+        "file": "public/presentation.json",
+        "path": "/source_excerpts_uk/FD-RB-BE404B87F7AB943A/display_text_uk",
+        "public_text_sha256": "821402e93ab07a25c6a2d995e6f160ab2a8833628eccd0faec1bc534453a6976",
+        "categories": [
+          "country",
+          "facility_city"
+        ]
+      }
+    ],
+    "presentation_binding_updates": [
+      {
+        "file": "public/presentation.json",
+        "path": "/source_excerpts_uk/FD-RB-BE404B87F7AB943A/source_text_sha256",
+        "source_object_id": "FD-RB-BE404B87F7AB943A",
+        "public_source_text_sha256": "139c2188b2e5cd4f343bec607b6ae73368603b2c125b8e7091ef4e169804d47e"
+      },
+      {
+        "file": "public/presentation.json",
+        "path": "/complications/milestones/3/source_text_sha256/FD-RB-BE404B87F7AB943A",
+        "source_object_id": "FD-RB-BE404B87F7AB943A",
+        "public_source_text_sha256": "139c2188b2e5cd4f343bec607b6ae73368603b2c125b8e7091ef4e169804d47e"
+      },
+      {
+        "file": "public/presentation.json",
+        "path": "/complications/milestones/10/source_text_sha256/FD-RB-BE404B87F7AB943A",
+        "source_object_id": "FD-RB-BE404B87F7AB943A",
+        "public_source_text_sha256": "139c2188b2e5cd4f343bec607b6ae73368603b2c125b8e7091ef4e169804d47e"
+      },
+      {
+        "file": "public/presentation.json",
+        "path": "/complications/milestones/12/source_text_sha256/FD-RB-BE404B87F7AB943A",
+        "source_object_id": "FD-RB-BE404B87F7AB943A",
+        "public_source_text_sha256": "139c2188b2e5cd4f343bec607b6ae73368603b2c125b8e7091ef4e169804d47e"
+      },
+      {
+        "file": "public/presentation.json",
+        "path": "/complications/milestones/44/source_text_sha256/FD-RB-BE404B87F7AB943A",
+        "source_object_id": "FD-RB-BE404B87F7AB943A",
+        "public_source_text_sha256": "139c2188b2e5cd4f343bec607b6ae73368603b2c125b8e7091ef4e169804d47e"
+      },
+      {
+        "file": "public/presentation.json",
+        "path": "/complications/milestones/68/source_text_sha256/FD-RB-BE404B87F7AB943A",
+        "source_object_id": "FD-RB-BE404B87F7AB943A",
+        "public_source_text_sha256": "139c2188b2e5cd4f343bec607b6ae73368603b2c125b8e7091ef4e169804d47e"
+      },
+      {
+        "file": "public/presentation.json",
+        "path": "/complications/milestones/69/source_text_sha256/FD-RB-BE404B87F7AB943A",
+        "source_object_id": "FD-RB-BE404B87F7AB943A",
+        "public_source_text_sha256": "139c2188b2e5cd4f343bec607b6ae73368603b2c125b8e7091ef4e169804d47e"
+      },
+      {
+        "file": "public/presentation.json",
+        "path": "/complications/milestones/85/source_text_sha256/FD-RB-BE404B87F7AB943A",
+        "source_object_id": "FD-RB-BE404B87F7AB943A",
+        "public_source_text_sha256": "139c2188b2e5cd4f343bec607b6ae73368603b2c125b8e7091ef4e169804d47e"
+      }
+    ],
+    "clinical_candidate_unchanged": true,
+    "observations_unchanged": true,
+    "canonical_patient_graph_modified": false,
+    "additional_source_records": [
+      "SR-4A7935CB34EA-P0042",
+      "SR-4A7935CB34EA-P0044",
+      "SR-4A7935CB34EA-P0163",
+      "SR-4A7935CB34EA-P0164",
+      "SR-4A7935CB34EA-P0201",
+      "SR-4A7935CB34EA-P0202",
+      "SR-4A7935CB34EA-P0295",
+      "SR-4A7935CB34EA-P0327",
+      "SR-4A7935CB34EA-P0343",
+      "SR-4A7935CB34EA-P0344",
+      "SR-4A7935CB34EA-P0464",
+      "SR-4A7935CB34EA-P0465",
+      "SR-4A7935CB34EA-P0762",
+      "SR-4A7935CB34EA-P0763",
+      "SR-4A7935CB34EA-P1355",
+      "SR-4A7935CB34EA-P1357",
+      "SR-4A7935CB34EA-P1443",
+      "SR-4A7935CB34EA-P1444",
+      "SR-4A7935CB34EA-P1848",
+      "SR-4A7935CB34EA-P1850",
+      "SR-4A7935CB34EA-P2329",
+      "SR-4A7935CB34EA-P2511"
+    ],
+    "treatment_safety_quotation_projection": true,
+    "canonical_origin_hashes_preserved": true,
+    "locator_hash_updates": [
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/41/locator/text_sha256",
+        "public_literal_sha256": "4e08b74e4d4766a96f309eac5446e3377b266f2cb43523cc22cc9a947e348a19"
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/41/source_structure/fields/0/locator/text_sha256",
+        "public_literal_sha256": "4e08b74e4d4766a96f309eac5446e3377b266f2cb43523cc22cc9a947e348a19"
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/41/source_structure/fields/1/locator/text_sha256",
+        "public_literal_sha256": "4e08b74e4d4766a96f309eac5446e3377b266f2cb43523cc22cc9a947e348a19"
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/43/locator/text_sha256",
+        "public_literal_sha256": "2cb7d325c89609be8187d167d253f0a02f8461304f11b28591db35da6b42d485"
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/43/source_structure/fields/0/locator/text_sha256",
+        "public_literal_sha256": "2cb7d325c89609be8187d167d253f0a02f8461304f11b28591db35da6b42d485"
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/43/source_structure/fields/1/locator/text_sha256",
+        "public_literal_sha256": "2cb7d325c89609be8187d167d253f0a02f8461304f11b28591db35da6b42d485"
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/162/locator/text_sha256",
+        "public_literal_sha256": "96c42c0b40fbfe7534a764a100b2dcee3839af4b77be0f04958af65f4ae613f7"
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/162/source_structure/fields/0/locator/text_sha256",
+        "public_literal_sha256": "96c42c0b40fbfe7534a764a100b2dcee3839af4b77be0f04958af65f4ae613f7"
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/162/source_structure/fields/1/locator/text_sha256",
+        "public_literal_sha256": "96c42c0b40fbfe7534a764a100b2dcee3839af4b77be0f04958af65f4ae613f7"
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/163/locator/text_sha256",
+        "public_literal_sha256": "071a5935af14fee1f8081585a6e8c5101dfeb837afda647b37db2ba55926c0ba"
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/163/source_structure/fields/0/locator/text_sha256",
+        "public_literal_sha256": "071a5935af14fee1f8081585a6e8c5101dfeb837afda647b37db2ba55926c0ba"
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/163/source_structure/fields/1/locator/text_sha256",
+        "public_literal_sha256": "071a5935af14fee1f8081585a6e8c5101dfeb837afda647b37db2ba55926c0ba"
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/200/locator/text_sha256",
+        "public_literal_sha256": "5fa705fcae75473be00324ded4ec83fc8f44188f7621a6db202a41b3637d9c5d"
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/200/source_structure/fields/0/locator/text_sha256",
+        "public_literal_sha256": "5fa705fcae75473be00324ded4ec83fc8f44188f7621a6db202a41b3637d9c5d"
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/200/source_structure/fields/1/locator/text_sha256",
+        "public_literal_sha256": "5fa705fcae75473be00324ded4ec83fc8f44188f7621a6db202a41b3637d9c5d"
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/201/locator/text_sha256",
+        "public_literal_sha256": "caa241b5e37d982cc87b4db4a90e2666f7b689a1dd575d8ce942ba63ed3dc0f9"
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/201/source_structure/fields/0/locator/text_sha256",
+        "public_literal_sha256": "caa241b5e37d982cc87b4db4a90e2666f7b689a1dd575d8ce942ba63ed3dc0f9"
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/201/source_structure/fields/1/locator/text_sha256",
+        "public_literal_sha256": "caa241b5e37d982cc87b4db4a90e2666f7b689a1dd575d8ce942ba63ed3dc0f9"
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/228/locator/text_sha256",
+        "public_literal_sha256": "b04557dc38b83888cd036e9fec05cc2fadd65d6e43a6d65f49a34340bb54a8f2"
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/228/source_structure/fields/0/locator/text_sha256",
+        "public_literal_sha256": "b04557dc38b83888cd036e9fec05cc2fadd65d6e43a6d65f49a34340bb54a8f2"
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/228/source_structure/fields/1/locator/text_sha256",
+        "public_literal_sha256": "b04557dc38b83888cd036e9fec05cc2fadd65d6e43a6d65f49a34340bb54a8f2"
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/294/locator/text_sha256",
+        "public_literal_sha256": "3d517f3da6e2bf47ebb96fae5dd06fc22a13b52cd39a8676cf898ee6707aeaa5"
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/294/source_structure/fields/0/locator/text_sha256",
+        "public_literal_sha256": "3d517f3da6e2bf47ebb96fae5dd06fc22a13b52cd39a8676cf898ee6707aeaa5"
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/294/source_structure/fields/1/locator/text_sha256",
+        "public_literal_sha256": "3d517f3da6e2bf47ebb96fae5dd06fc22a13b52cd39a8676cf898ee6707aeaa5"
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/326/locator/text_sha256",
+        "public_literal_sha256": "f9dec561aaef8676640acb261525ea8e5159ae224f1f42ea9adc69bdc4bc69b8"
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/326/source_structure/fields/0/locator/text_sha256",
+        "public_literal_sha256": "f9dec561aaef8676640acb261525ea8e5159ae224f1f42ea9adc69bdc4bc69b8"
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/326/source_structure/fields/1/locator/text_sha256",
+        "public_literal_sha256": "f9dec561aaef8676640acb261525ea8e5159ae224f1f42ea9adc69bdc4bc69b8"
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/342/locator/text_sha256",
+        "public_literal_sha256": "2e4afe25273399213de597bed79e5e5ca552145b4651a0babd04cfa268575724"
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/342/source_structure/fields/0/locator/text_sha256",
+        "public_literal_sha256": "2e4afe25273399213de597bed79e5e5ca552145b4651a0babd04cfa268575724"
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/342/source_structure/fields/1/locator/text_sha256",
+        "public_literal_sha256": "2e4afe25273399213de597bed79e5e5ca552145b4651a0babd04cfa268575724"
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/343/locator/text_sha256",
+        "public_literal_sha256": "ee5504bbba25415b34ad39a0f4d62a41b246f2ab04e606c4b200e6e569ac5862"
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/343/source_structure/fields/0/locator/text_sha256",
+        "public_literal_sha256": "ee5504bbba25415b34ad39a0f4d62a41b246f2ab04e606c4b200e6e569ac5862"
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/343/source_structure/fields/1/locator/text_sha256",
+        "public_literal_sha256": "ee5504bbba25415b34ad39a0f4d62a41b246f2ab04e606c4b200e6e569ac5862"
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/463/locator/text_sha256",
+        "public_literal_sha256": "0817aeac833a1a0a964c297681653d986b374f1da96deee4ffff589747f2b711"
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/463/source_structure/fields/0/locator/text_sha256",
+        "public_literal_sha256": "0817aeac833a1a0a964c297681653d986b374f1da96deee4ffff589747f2b711"
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/463/source_structure/fields/1/locator/text_sha256",
+        "public_literal_sha256": "0817aeac833a1a0a964c297681653d986b374f1da96deee4ffff589747f2b711"
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/464/locator/text_sha256",
+        "public_literal_sha256": "7162cd255c0d0c643812d08ddfe0702507ded52dfb5e6894a148b4e30d086548"
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/464/source_structure/fields/0/locator/text_sha256",
+        "public_literal_sha256": "7162cd255c0d0c643812d08ddfe0702507ded52dfb5e6894a148b4e30d086548"
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/464/source_structure/fields/1/locator/text_sha256",
+        "public_literal_sha256": "7162cd255c0d0c643812d08ddfe0702507ded52dfb5e6894a148b4e30d086548"
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/761/locator/text_sha256",
+        "public_literal_sha256": "0817aeac833a1a0a964c297681653d986b374f1da96deee4ffff589747f2b711"
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/761/source_structure/fields/0/locator/text_sha256",
+        "public_literal_sha256": "0817aeac833a1a0a964c297681653d986b374f1da96deee4ffff589747f2b711"
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/761/source_structure/fields/1/locator/text_sha256",
+        "public_literal_sha256": "0817aeac833a1a0a964c297681653d986b374f1da96deee4ffff589747f2b711"
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/762/locator/text_sha256",
+        "public_literal_sha256": "fa59a57372059bbf01af12ed1406c377aba9f47780a20b95d0d67fc071069b4a"
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/762/source_structure/fields/0/locator/text_sha256",
+        "public_literal_sha256": "fa59a57372059bbf01af12ed1406c377aba9f47780a20b95d0d67fc071069b4a"
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/762/source_structure/fields/1/locator/text_sha256",
+        "public_literal_sha256": "fa59a57372059bbf01af12ed1406c377aba9f47780a20b95d0d67fc071069b4a"
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/1354/locator/text_sha256",
+        "public_literal_sha256": "12037b3d82ba9d6deefcebd26f6da4406d567d2ee6cc79547982f8f86b7f4a5f"
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/1354/source_structure/fields/0/locator/text_sha256",
+        "public_literal_sha256": "12037b3d82ba9d6deefcebd26f6da4406d567d2ee6cc79547982f8f86b7f4a5f"
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/1354/source_structure/fields/1/locator/text_sha256",
+        "public_literal_sha256": "12037b3d82ba9d6deefcebd26f6da4406d567d2ee6cc79547982f8f86b7f4a5f"
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/1356/locator/text_sha256",
+        "public_literal_sha256": "b5991bf4771fdc6008f7dbb1184be449948364361639efd0e840acc290c3250b"
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/1356/source_structure/fields/0/locator/text_sha256",
+        "public_literal_sha256": "b5991bf4771fdc6008f7dbb1184be449948364361639efd0e840acc290c3250b"
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/1356/source_structure/fields/1/locator/text_sha256",
+        "public_literal_sha256": "b5991bf4771fdc6008f7dbb1184be449948364361639efd0e840acc290c3250b"
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/1442/locator/text_sha256",
+        "public_literal_sha256": "25bfd84724e748622a05160a21a9e4812e6863ba952f82da5f6f074366c0c567"
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/1442/source_structure/fields/0/locator/text_sha256",
+        "public_literal_sha256": "25bfd84724e748622a05160a21a9e4812e6863ba952f82da5f6f074366c0c567"
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/1442/source_structure/fields/1/locator/text_sha256",
+        "public_literal_sha256": "25bfd84724e748622a05160a21a9e4812e6863ba952f82da5f6f074366c0c567"
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/1443/locator/text_sha256",
+        "public_literal_sha256": "55bb2d3c2fe4b3e9b93d4f218f54a5bfee6797746297f6c417e3fd30ce2f3319"
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/1443/source_structure/fields/0/locator/text_sha256",
+        "public_literal_sha256": "55bb2d3c2fe4b3e9b93d4f218f54a5bfee6797746297f6c417e3fd30ce2f3319"
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/1443/source_structure/fields/1/locator/text_sha256",
+        "public_literal_sha256": "55bb2d3c2fe4b3e9b93d4f218f54a5bfee6797746297f6c417e3fd30ce2f3319"
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/1847/locator/text_sha256",
+        "public_literal_sha256": "12037b3d82ba9d6deefcebd26f6da4406d567d2ee6cc79547982f8f86b7f4a5f"
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/1847/source_structure/fields/0/locator/text_sha256",
+        "public_literal_sha256": "12037b3d82ba9d6deefcebd26f6da4406d567d2ee6cc79547982f8f86b7f4a5f"
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/1847/source_structure/fields/1/locator/text_sha256",
+        "public_literal_sha256": "12037b3d82ba9d6deefcebd26f6da4406d567d2ee6cc79547982f8f86b7f4a5f"
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/1849/locator/text_sha256",
+        "public_literal_sha256": "b5991bf4771fdc6008f7dbb1184be449948364361639efd0e840acc290c3250b"
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/1849/source_structure/fields/0/locator/text_sha256",
+        "public_literal_sha256": "b5991bf4771fdc6008f7dbb1184be449948364361639efd0e840acc290c3250b"
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/1849/source_structure/fields/1/locator/text_sha256",
+        "public_literal_sha256": "b5991bf4771fdc6008f7dbb1184be449948364361639efd0e840acc290c3250b"
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/2328/locator/text_sha256",
+        "public_literal_sha256": "139c2188b2e5cd4f343bec607b6ae73368603b2c125b8e7091ef4e169804d47e"
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/2328/source_structure/fields/0/locator/text_sha256",
+        "public_literal_sha256": "139c2188b2e5cd4f343bec607b6ae73368603b2c125b8e7091ef4e169804d47e"
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/2328/source_structure/fields/1/locator/text_sha256",
+        "public_literal_sha256": "139c2188b2e5cd4f343bec607b6ae73368603b2c125b8e7091ef4e169804d47e"
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/2510/locator/text_sha256",
+        "public_literal_sha256": "fc37fc2aba7c4c3a869c18be8ac786bbbf9f52c0cf0ab0ede82342c49ffd3cef"
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/2510/source_structure/fields/0/locator/text_sha256",
+        "public_literal_sha256": "fc37fc2aba7c4c3a869c18be8ac786bbbf9f52c0cf0ab0ede82342c49ffd3cef"
+      },
+      {
+        "file": "public/case-package.json",
+        "path": "/projection/source_records/2510/source_structure/fields/1/locator/text_sha256",
+        "public_literal_sha256": "fc37fc2aba7c4c3a869c18be8ac786bbbf9f52c0cf0ab0ede82342c49ffd3cef"
+      }
+    ]
+  },
+  "public_display_payload_sha256": "af81f169bc86b49f302cc22c33eb08c2b74d87a154d5c5c531bae4c6bf040442"
+}

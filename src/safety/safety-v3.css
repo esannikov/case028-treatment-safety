@@ -1,0 +1,40 @@
+.hb-complications .episode-assessment small{display:block;color:#49454f;font-size:.8rem;line-height:1.4;margin-top:.25rem}
+.hb-complications .next-verification{display:grid;gap:.4rem;padding-block:1rem;border-block:1px solid #ddd5e2;line-height:1.55;margin-block:1rem}
+.hb-complications .next-verification strong{font-size:.9rem}
+.hb-complications .canonical-record{padding:.85rem 0;border-bottom:1px solid #ddd5e2;overflow-wrap:anywhere}
+.hb-complications .canonical-record summary{cursor:pointer;line-height:1.5}
+.hb-complications .canonical-record summary span{display:block;color:#49454f;font-size:.85rem;padding-left:1rem}
+.hb-complications .canonical-record dl{display:grid;gap:.8rem;margin:1rem 0}
+.hb-complications .canonical-record dl div{display:grid;grid-template-columns:minmax(100px,1fr) 2fr;gap:.8rem}
+.hb-complications .canonical-record dt{color:#49454f;font-size:.85rem}
+.hb-complications .canonical-record dd{margin:0;line-height:1.5}
+.hb-complications .episode-context-center{display:flex;gap:1rem;align-items:center;justify-content:space-between;padding:1rem 0;border-bottom:1px solid #79747e}
+.hb-complications .episode-context-branches{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1.5rem;position:relative;padding-top:1rem}
+.hb-complications .episode-context-branches h3{font-size:1rem;display:flex;gap:.5rem;align-items:baseline}
+.hb-complications .episode-context-branches h3 span{color:#49454f;font-weight:400}
+.hb-complications .safety-kind-tabs{flex-wrap:wrap;margin:1rem 0;gap:.4rem}
+.hb-complications .canonical-register{margin-top:.5rem}
+.hb-complications .episode-assessment .quiet-details h3{margin-top:1.4rem}
+@media(max-width:1000px){.hb-complications .episode-context-branches{grid-template-columns:1fr}.hb-complications .episode-context-center{align-items:flex-start;flex-direction:column}}
+@media(prefers-reduced-motion:reduce){.hb-complications *{scroll-behavior:auto!important}}
+
+.hb-complications .upper-normal-line{stroke:#49454f;stroke-width:1.5;stroke-dasharray:5 4}
+.hb-complications .chart-foot{flex-wrap:wrap;gap:.5rem 1rem}
+.hb-complications .chart-foot .MuiFormControlLabel-label{font-size:.8rem}
+
+.hb-complications .structured-source dl{display:grid;gap:.8rem}
+.hb-complications .structured-source dt{color:#49454f;font-size:.8rem;margin-bottom:.2rem}
+.hb-complications .structured-source dd{margin:0;line-height:1.5}
+
+.hb-complications .entity-relations{margin-top:.8rem;font-size:.85rem}
+.hb-complications .entity-relations ul{padding-left:1.1rem}
+.hb-complications .entity-relations li{margin-block:.9rem}
+.hb-complications .entity-relations li strong,.hb-complications .entity-relations li>span{display:block;line-height:1.5;margin-block:.2rem}
+
+.hb-complications .source-grade-context{font-size:.875rem;line-height:1.55;color:#49454f;margin-block:.75rem}
+
+.hb-complications .episode-period{font-size:.8rem;color:#49454f;line-height:1.5;margin:.35rem 0 .8rem}
+
+.hb-complications .mobile-workup{padding:12px 0;border-top:1px solid var(--rule)}
+.hb-complications .mobile-workup>summary{font-size:14px;line-height:1.5;color:var(--primary-dark)}
+.hb-complications .mobile-workup>summary>span{display:block;font-size:12px;margin-bottom:4px}

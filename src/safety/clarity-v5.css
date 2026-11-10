@@ -1,0 +1,64 @@
+/* Reuse the HematoBoard Material tokens; focus and detail have distinct levels. */
+.hb-complications .complications-main{max-width:1560px}
+.hb-complications .module-heading{margin-bottom:16px}
+.hb-complications .module-heading h1{line-height:1.3;margin:0}
+.hb-complications .issue-focus{background:#eaddff;border-radius:18px;padding:20px 24px;margin-bottom:24px;color:var(--primary-dark)}
+.hb-complications .issue-focus .issue-select{width:100%;max-width:none;margin:0}
+.hb-complications .issue-focus .MuiOutlinedInput-root{background:var(--surface);border-radius:10px;font-weight:600}
+.hb-complications .issue-focus .MuiInputLabel-root{color:var(--primary-dark);font-weight:600}
+.hb-complications .issue-focus .MuiOutlinedInput-notchedOutline{border-color:var(--primary)}
+.hb-complications .issue-focus .MuiAutocomplete-popupIndicator{color:var(--primary-dark);background:#eaddff;border-radius:8px;width:36px;height:36px}
+.hb-complications .issue-selected-value{display:block;max-width:100%;font-size:16px;line-height:1.5;padding:7px 0;cursor:text;overflow-wrap:anywhere}
+.hb-complications .issue-focus:not(.picker-open) .MuiAutocomplete-input{position:absolute;width:0!important;min-width:0!important;height:1px;padding:0!important;opacity:0}
+.hb-complications .causal-toolbar{padding-block:20px}
+.hb-complications .causal-toolbar .panel-heading{margin:0;align-items:center}
+.hb-complications .causal-toolbar h2{margin:0}
+.hb-complications .episode-context .panel-heading{margin-bottom:8px;align-items:center}
+.hb-complications .episode-context .panel-heading h2{margin:0}
+.hb-complications .episode-context-name{font-weight:600;margin:12px 0}
+.hb-complications .episode-context-section{padding-block:20px;border-bottom:1px solid var(--outline)}
+.hb-complications .episode-context-section>h3{display:flex;gap:10px;align-items:baseline;font-size:16px;margin:0 0 8px}
+.hb-complications .episode-context-section>h3>span{font-size:13px;font-weight:400;color:var(--muted)}
+.hb-complications .episode-record{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:20px;align-items:start;padding:14px 0;border-bottom:1px solid var(--rule)}
+.hb-complications .episode-record:last-child{border-bottom:0;padding-bottom:0}
+.hb-complications .episode-record-detail{min-width:0}
+.hb-complications .episode-record-detail>summary{padding-left:4px;margin-left:16px;font-size:15px;line-height:1.5}
+.hb-complications .episode-record-detail>summary strong{font-weight:600}
+.hb-complications .episode-record-meta{display:flex;flex-wrap:wrap;gap:4px 16px;font-size:13px;color:var(--muted);margin-top:4px}
+.hb-complications .episode-source.MuiButton-root{min-height:40px;align-self:start;margin-top:-6px}
+.hb-complications .episode-record-fields{display:grid;gap:10px;margin:18px 0 0 20px;max-width:900px}
+.hb-complications .episode-record-fields>div{display:grid;grid-template-columns:180px minmax(0,1fr);gap:16px;font-size:14px;line-height:1.55}
+.hb-complications .episode-record-fields dt{color:var(--muted)}
+.hb-complications .episode-record-fields dd{margin:0;overflow-wrap:anywhere}
+.hb-complications .episode-missing-assessment{margin:16px 0 0;font-size:13px;color:var(--muted)}
+.hb-complications .episode-context-footer{display:flex;align-items:baseline;justify-content:space-between;gap:16px;flex-wrap:wrap;padding-top:16px}
+.hb-complications .episode-context-footer>.quiet-details{flex:1;min-width:220px;margin:0}
+.hb-complications .episode-context-footer>.quiet-details>summary{font-size:14px}
+.hb-complications .episode-relation-list{list-style:none;padding:0}
+.hb-complications .episode-relation-list>li{padding:12px 0;border-bottom:1px solid var(--rule)}
+.hb-complications .episode-relation-list>li>span{font-size:12px;color:var(--muted)}
+.hb-complications .episode-relation-list p{margin:4px 0;font-size:14px}
+.hb-complications .trend-connector{fill:none;stroke:var(--primary);stroke-width:1.8;opacity:.72;vector-effect:non-scaling-stroke}
+.hb-complications .trend-connector.provisional{stroke-dasharray:5 4}
+.hb-complications .series-selector{min-width:220px;max-width:100%}
+.hb-complications .series-selector .MuiSelect-select{font-size:14px}
+.hb-complications .scale-control{display:flex;align-items:center;gap:12px;margin:0 0 8px;font-size:13px;color:var(--muted)}
+.hb-complications .scale-control .MuiToggleButton-root{padding:5px 12px;font-size:12px;text-transform:none}
+.hb-complications .chart-explanation{color:var(--muted);font-size:13px}
+.hb-complications .chart-explanation p{font-size:13px}
+.hb-complications .point-legend{gap:10px 20px}
+.hb-complications .trend-panel .panel-heading{flex-wrap:wrap;gap:16px;margin-bottom:16px}
+.hb-complications .mobile-issue-select{background:#eaddff;padding:16px;border-radius:18px}
+@media(max-width:760px){
+ .hb-complications .issue-focus{padding:18px 16px;border-radius:18px;margin-bottom:18px}
+ .hb-complications .issue-selected-value{font-size:15px}
+ .hb-complications .module-heading h1{font-size:22px}
+ .hb-complications .episode-context .panel-heading{align-items:flex-start;gap:4px;flex-direction:column}
+ .hb-complications .episode-record{gap:8px;grid-template-columns:minmax(0,1fr)}
+ .hb-complications .episode-source.MuiButton-root{justify-self:start;margin:0 0 0 20px;min-height:44px;padding:0 8px}
+ .hb-complications .episode-record-fields>div{grid-template-columns:1fr;gap:2px}
+ .hb-complications .episode-context-footer{flex-direction:column;align-items:stretch;gap:8px}
+ .hb-complications .episode-context-footer>.quiet-details{min-width:0}
+ .hb-complications .series-selector{min-width:200px}
+ .hb-complications .scale-control{flex-wrap:wrap;gap:8px}
+}

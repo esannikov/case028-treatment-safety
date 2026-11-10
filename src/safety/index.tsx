@@ -1,0 +1,20 @@
+import {useEffect,useState} from 'react';
+import {createRoot} from 'react-dom/client';
+import {Alert,Button,CssBaseline,Skeleton,ThemeProvider,createTheme} from '@mui/material';
+import HubOutlinedIcon from '@mui/icons-material/HubOutlined';
+import {Bundle,loadBundle} from './model';
+import {ComplicationsModule} from './ComplicationsModule';
+import {SourceInspector} from './source-inspector';
+import {validateProjectionStructure} from './complications-model';
+import './styles.css';
+import './safety-v3.css';
+import './clarity-v4.css';
+import './clarity-v5.css';
+import './zones-v6.css';
+import './details-v7.css';
+import './history-v8.css';
+import {validateSafety} from './safety-graph';
+import './bootstrap.css';
+const theme=createTheme({palette:{primary:{main:'#6750a4'},background:{default:'#f7f2fa',paper:'#fffbfe'},text:{primary:'#1d1b20',secondary:'#49454f'}},typography:{fontFamily:'-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif',fontSize:14},shape:{borderRadius:12},components:{MuiButton:{styleOverrides:{root:{textTransform:'none',fontWeight:600}}},MuiTooltip:{defaultProps:{arrow:true}}}});
+function App(){const [bundle,setBundle]=useState<Bundle|null>(null);const [error,setError]=useState('');const [sources,setSources]=useState<string[]>([]);useEffect(()=>{loadBundle().then(b=>{validateProjectionStructure(b);validateSafety(b);setBundle(b)}).catch(e=>setError(String(e.message)))},[]);return <div className="hb-complications">{error?<main className="startup"><Alert severity="error">{error}</Alert><Button onClick={()=>location.reload()}>Повторити завантаження</Button></main>:!bundle?<main className="startup"><h1>Аналіз ускладнень</h1><Skeleton height={90}/><Skeleton height={300}/></main>:<><header className="app-bar"><div className="brand"><HubOutlinedIcon/><strong>Аналіз ускладнень</strong></div><div className="case-identity"><strong>{bundle.manifest.case_id}</strong><span>Аналіз ускладнень</span></div></header><ComplicationsModule bundle={bundle} host={{onOpenSource:refs=>setSources([...new Set(refs.map(r=>r.object_id))])}}/><SourceInspector b={bundle} ids={sources} onOpen={setSources} onClose={()=>setSources([])}/></>}</div>}
+createRoot(document.getElementById('root')!).render(<ThemeProvider theme={theme}><CssBaseline/><App/></ThemeProvider>);

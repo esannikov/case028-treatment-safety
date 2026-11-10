@@ -1,0 +1,53 @@
+/* Recorded clinical states, not a combined risk score. */
+.hb-complications .episode-states > .assessment-tone {
+  --assessment-fill: #f3edf7;
+  --assessment-ink: #49454f;
+  background: var(--assessment-fill);
+  color: var(--assessment-ink);
+}
+.hb-complications .episode-states > .tone-positive { --assessment-fill:#eef7f1; --assessment-ink:#126b31; }
+.hb-complications .episode-states > .tone-information { --assessment-fill:#efe7fa; --assessment-ink:#4f378b; }
+.hb-complications .episode-states > .tone-attention { --assessment-fill:#fbf0dc; --assessment-ink:#704600; }
+.hb-complications .episode-states > .tone-concern { --assessment-fill:#fbf0f2; --assessment-ink:#a81e26; }
+.hb-complications .assessment-tone dt,
+.hb-complications .assessment-tone dd,
+.hb-complications .assessment-tone small { color:var(--assessment-ink); }
+.hb-complications .assessment-tone dd { font-size:16px; font-weight:650; }
+.hb-complications .assessment-tone dt { font-size:13px; }
+.hb-complications .assessment-tone small { font-size:12px; }
+
+/* The five sourced stages read in one direction, at their recorded precision. */
+.hb-complications .history-journey { margin-top:24px; }
+.hb-complications .history-journey > h3 { font-size:17px; margin-bottom:20px; }
+.hb-complications .history-journey ol { display:block; margin:0; padding:0; }
+.hb-complications .history-journey li {
+  display:grid; grid-template-columns:120px minmax(0,1fr);
+  gap:24px; border:0; padding:0 0 20px; margin:0;
+  align-items:stretch;
+}
+.hb-complications .history-period { position:relative; padding:16px 28px 0 0; color:var(--primary-dark); font-size:15px; font-weight:650; line-height:1.5; text-align:right; font-variant-numeric:tabular-nums; }
+.hb-complications .history-period::after { content:''; position:absolute; top:24px; bottom:-24px; right:0; width:1px; background:var(--outline); }
+.hb-complications .history-journey li:last-child .history-period::after { display:none; }
+.hb-complications .history-node { position:absolute; top:22px; right:-4px; z-index:1; width:9px; height:9px; border-radius:50%; background:var(--primary); }
+.hb-complications .history-stage { display:grid; grid-template-columns:minmax(0,1fr) auto; gap:6px 16px; min-width:0; background:#f7f2fa; border-radius:14px; padding:16px 20px; }
+.hb-complications .history-stage h4 { grid-column:1; margin:0; color:var(--ink); font-size:16px; font-weight:650; line-height:1.5; }
+.hb-complications .history-stage p { grid-column:1; margin:0; font-size:14px; line-height:1.6; max-width:90ch; }
+.hb-complications .history-journey .history-stage .MuiButton-root { grid-column:2; grid-row:1 / 3; align-self:start; padding:0 4px; min-height:32px; margin:0; }
+.hb-complications .history-journey li:last-child { padding-bottom:0; }
+.hb-complications .history-journey + .background-context { margin-top:24px; }
+@media(max-width:760px) {
+  .hb-complications .history-journey li { grid-template-columns:100px minmax(0,1fr); gap:16px; padding-bottom:16px; }
+  .hb-complications .history-period { font-size:13px; padding-right:16px; }
+  .hb-complications .history-stage { grid-template-columns:1fr; gap:8px; padding:14px; }
+   .hb-complications .history-stage h4 { font-size:15px; }
+  .hb-complications .history-journey .history-stage .MuiButton-root { grid-column:1; grid-row:auto; justify-self:start; min-height:36px; }
+  .hb-complications .history-period::after { bottom:-20px; }
+}
+@media(max-width:480px) {
+  .hb-complications .history-journey li { grid-template-columns:1fr; gap:8px; padding-bottom:20px; }
+  .hb-complications .history-period { text-align:left; padding:0; font-size:14px; }
+  .hb-complications .history-period::after, .hb-complications .history-node { display:none; }
+  }
+
+.hb-complications .history-journey li.history-untimed { grid-template-columns:1fr; }
+.hb-complications .history-untimed .history-period { display:none; }

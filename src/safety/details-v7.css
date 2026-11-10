@@ -1,0 +1,116 @@
+/* One interior grammar: title, metadata, clinical detail, source actions. */
+.hb-complications .disclosure-chevron { width: 20px; height: 20px; color: var(--primary); flex-shrink: 0; }
+.hb-complications details[open] > summary > .disclosure-chevron { transform: rotate(180deg); }
+.hb-complications :is(.action-detail,.assessment-rationale,.entity-relations,.episode-links) > summary {
+  display: flex; gap: 8px; align-items: flex-start; list-style: none;
+  padding: 8px 0; line-height: 1.5;
+}
+.hb-complications :is(.canonical-record,.episode-record-detail,.action-detail,.assessment-rationale,.entity-relations,.episode-links) > summary::-webkit-details-marker { display: none; }
+.hb-complications :is(.canonical-record,.episode-record-detail,.action-detail,.assessment-rationale,.entity-relations,.episode-links) > summary::marker { content: ''; }
+
+/* Plan: conditions are visible, sources have a separate footer. */
+.hb-complications .clear-action h3 { margin: 0 0 8px; }
+.hb-complications .clear-action .action-explanation { margin: 0 0 12px; max-width: 78ch; }
+.hb-complications .clear-action .action-condition {
+  display: grid; grid-template-columns: 140px minmax(0,1fr); gap: 16px;
+  background: #f7f2fa; border-radius: 10px; padding: 12px 16px;
+  max-width: none; margin: 0 0 16px; color: var(--ink);
+}
+.hb-complications .action-condition > strong { font-size: 13px; color: var(--muted); line-height: 1.6; }
+.hb-complications .action-condition > p { font-size: 14px; line-height: 1.6; margin: 0; max-width: 76ch; }
+.hb-complications .clear-action .action-detail { border-top: 1px solid var(--outline); padding-top: 8px; margin-top: 16px; }
+.hb-complications .action-detail > summary { color: var(--primary-dark); font-size: 13px; font-weight: 600; }
+.hb-complications .action-detail > :not(summary) { margin-left: 28px; }
+.hb-complications .action-detail .small-source-list { gap: 8px 16px; margin-top: 12px; margin-bottom: 16px; }
+.hb-complications .action-detail .outcome { padding: 12px 0; border-top: 1px solid var(--rule); }
+.hb-complications .action-detail .outcome p { margin: 6px 0 0; max-width: 76ch; }
+
+/* Registers: one stable row, with explicit dose and strength labels. */
+.hb-complications .register-controls { background: #f7f2fa; border-radius: 14px; padding: 16px; margin: 20px 0 12px; }
+.hb-complications .safety-kind-tabs { display: flex; gap: 8px; margin: 0 0 16px; }
+.hb-complications .safety-kind-tabs .MuiToggleButtonGroup-grouped {
+  border: 1px solid var(--outline); border-radius: 10px; margin: 0;
+  font-size: 13px; text-transform: none; min-height: 40px;
+}
+.hb-complications .safety-kind-tabs .MuiToggleButton-root.Mui-selected { background: #eaddff; color: var(--primary-dark); font-weight: 600; }
+.hb-complications .register-controls .MuiOutlinedInput-root { background: var(--surface); }
+.hb-complications .canonical-register { margin: 0; }
+.hb-complications .register-record, .hb-complications .episode-record {
+  display: grid; grid-template-columns: minmax(0,1fr) auto; gap: 16px;
+  align-items: start; border-bottom: 1px solid var(--outline); padding: 16px 0;
+}
+.hb-complications .register-record:last-child { border-bottom: 0; }
+.hb-complications .register-record .canonical-record { border: 0; padding: 0; min-width: 0; }
+.hb-complications :is(.canonical-record,.episode-record-detail) > summary {
+  display: grid; grid-template-columns: 20px minmax(0,1fr) 190px; gap: 8px;
+  list-style: none; margin: 0; padding: 4px 0; min-height: 44px; align-items: start;
+}
+.hb-complications :is(.canonical-record,.episode-record-detail) > summary span { padding-left: 0; }
+.hb-complications .record-summary-main { min-width: 0; overflow-wrap: anywhere; }
+.hb-complications .record-summary-main > strong { display: block; font-size: 15px; line-height: 1.5; font-weight: 600; color: var(--ink); }
+.hb-complications .record-status { margin-top: 4px; font-size: 12px; color: var(--muted); }
+.hb-complications :is(.canonical-record,.episode-record-detail) .record-metadata { display: flex; flex-wrap: wrap; gap: 8px 24px; margin-top: 8px; }
+.hb-complications .record-metadata > span { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.hb-complications .record-metadata small, .hb-complications .record-summary-date small { display: block; font-size: 12px; line-height: 1.4; color: var(--muted); }
+.hb-complications :is(.canonical-record,.episode-record-detail) .record-metadata > span > span { color: var(--ink); font-size: 13px; line-height: 1.5; }
+.hb-complications .record-summary-date { display: block; padding-top: 2px; overflow-wrap: anywhere; }
+.hb-complications :is(.canonical-record,.episode-record-detail) .record-summary-date > span { color: var(--ink); font-size: 13px; margin-top: 4px; font-variant-numeric: tabular-nums; }
+.hb-complications .register-source.MuiButton-root, .hb-complications .episode-source.MuiButton-root { margin: 0; min-height: 44px; font-size: 13px; white-space: nowrap; align-self: start; }
+.hb-complications .record-detail-body { margin: 12px 0 0 28px; background: #f7f2fa; border-radius: 12px; padding: 16px; }
+.hb-complications .record-detail-body .record-fields { display: grid; gap: 12px; margin: 0; }
+.hb-complications .record-detail-body .record-fields > div { display: grid; grid-template-columns: 180px minmax(0,1fr); gap: 16px; }
+.hb-complications .record-fields dt { color: var(--muted); font-size: 13px; line-height: 1.5; }
+.hb-complications .record-fields dd { margin: 0; color: var(--ink); font-size: 14px; line-height: 1.5; overflow-wrap: anywhere; }
+.hb-complications .record-detail-body .entity-relations { border-top: 1px solid var(--outline); padding-top: 8px; margin-top: 16px; }
+.hb-complications .entity-relations ul { list-style: none; margin: 8px 0 0 28px; padding: 0; }
+.hb-complications .entity-relations li { padding: 12px 0; border-bottom: 1px solid var(--outline); margin: 0; }
+.hb-complications .entity-relations li strong { color: var(--muted); font-size: 12px; font-weight: 500; }
+.hb-complications .entity-relations li > span { color: var(--ink); font-size: 14px; }
+
+/* Patient introduction: source actions no longer compress the paragraphs. */
+.hb-complications .patient-heading { background: #f7f2fa; border-radius: 14px; padding: 16px; }
+.hb-complications .review-purpose { margin: 12px 0 24px; }
+.hb-complications .patient-history ol { gap: 16px 24px; }
+.hb-complications .patient-history li { display: flex; flex-direction: column; gap: 8px; padding: 12px 0 0; align-items: flex-start; }
+.hb-complications .patient-history li > span { flex: none; max-width: 78ch; }
+.hb-complications .patient-history li .MuiButton-root { padding: 4px 0; margin: 0; min-height: 32px; }
+.hb-complications .background-context { border: 0; background: #f7f2fa; border-radius: 14px; padding: 16px; margin: 20px 0 0; }
+.hb-complications .background-context > div { display: grid; grid-template-columns: minmax(0,1fr) auto; gap: 8px 20px; align-items: start; }
+.hb-complications .background-context strong { display: block; grid-column: 1; font-size: 14px; line-height: 1.5; }
+.hb-complications .background-context p { grid-column: 1; font-size: 14px; min-width: 0; max-width: 78ch; }
+.hb-complications .background-context .MuiButton-root { grid-column: 2; grid-row: 1 / 3; align-self: center; }
+
+/* Episode: the four assessment fields and next step share one width. */
+.hb-complications .episode-detail .clinical-abstract { max-width: 78ch; margin: 16px 0; }
+.hb-complications .episode-states { grid-template-columns: repeat(2,minmax(0,1fr)); gap: 12px; margin: 16px 0; }
+.hb-complications .episode-states > div { background: #f7f2fa; border-radius: 12px; padding: 16px; }
+.hb-complications .episode-states dt { margin-bottom: 6px; }
+.hb-complications .episode-states dd { font-weight: 600; }
+.hb-complications .episode-states dd small { font-weight: 400; }
+.hb-complications .next-verification { max-width: none; background: var(--tint); border: 0; border-radius: 12px; padding: 16px; margin: 16px 0; gap: 6px; }
+.hb-complications .next-verification strong { color: var(--primary-dark); }
+.hb-complications .episode-assessment .assessment-rationale { border: 0; margin-top: 8px; padding-top: 0; }
+.hb-complications .assessment-rationale > :not(summary) { margin-left: 28px; }
+.hb-complications .episode-detail .section-actions { justify-content: flex-start; gap: 12px; margin-top: 16px; }
+.hb-complications .episode-detail .section-actions .MuiButton-root { border: 1px solid var(--outline); border-radius: 10px; padding: 8px 14px; min-height: 40px; }
+
+@media(max-width:1000px) {
+  .hb-complications :is(.canonical-record,.episode-record-detail) > summary { grid-template-columns: 20px minmax(0,1fr); }
+  .hb-complications .record-summary-date { grid-column: 2; }
+}
+@media(max-width:600px) {
+  .hb-complications .clear-action .action-condition { grid-template-columns: 1fr; gap: 4px; padding: 12px; }
+  .hb-complications .action-detail > :not(summary), .hb-complications .assessment-rationale > :not(summary) { margin-left: 0; }
+  .hb-complications .register-controls { padding: 12px; }
+  .hb-complications .safety-kind-tabs .MuiToggleButtonGroup-grouped { flex: 1 1 100%; justify-content: flex-start; }
+  .hb-complications .register-record, .hb-complications .episode-record { grid-template-columns: 1fr; gap: 4px; }
+  .hb-complications .register-source.MuiButton-root, .hb-complications .episode-source.MuiButton-root { margin-left: 28px; justify-self: start; }
+  .hb-complications .record-detail-body { margin-left: 0; padding: 12px; }
+  .hb-complications .record-detail-body .record-fields > div { grid-template-columns: 1fr; gap: 4px; }
+  .hb-complications .patient-heading { padding: 14px; }
+  .hb-complications .background-context > div { grid-template-columns: 1fr; }
+  .hb-complications .background-context .MuiButton-root { grid-column: 1; grid-row: auto; justify-self: start; }
+  .hb-complications .episode-states { grid-template-columns: 1fr; }
+  .hb-complications .episode-detail .section-actions { display: flex; flex-direction: column; align-items: stretch; }
+  .hb-complications .episode-detail .section-actions .MuiButton-root { width: 100%; justify-content: center; }
+}
